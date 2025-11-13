@@ -1,0 +1,27 @@
+[
+  {
+    "fold_idx": 0,
+    "accuracy": 0.864,
+    "auroc": 0.649
+  },
+  {
+    "fold_idx": 1,
+    "accuracy": 0.864,
+    "auroc": 0.667
+  },
+  {
+    "fold_idx": 2,
+    "accuracy": 0.864,
+    "auroc": 0.579
+  },
+  {
+    "fold_idx": 3,
+    "accuracy": 0.818,
+    "auroc": 0.431
+  },
+  {
+    "fold_idx": 4,
+    "accuracy": 0.857,
+    "auroc": 0.537
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "feature": "mean_neoplastic_nuclear_area",
+    "coefficient": 3348.634
+  },
+  {
+    "feature": "mean_neoplastic_nuclear_eccentricity",
+    "coefficient": 778.064
+  },
+  {
+    "feature": "mean_neoplastic_nuclear_perimeter",
+    "coefficient": 5809.03
+  },
+  {
+    "feature": "mean_neoplastic_nuclear_circularity",
+    "coefficient": 1990.886
+  },
+  {
+    "feature": "mean_neoplastic_nuclear_solidity",
+    "coefficient": 3903.232
+  }
+]

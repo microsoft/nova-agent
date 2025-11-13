@@ -1,0 +1,301 @@
+[
+    {
+        "id": "1",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A0T0-01Z-00-DX1.51F904DA-A4B5-4451-8AEF-58E7EF7651DB.svs",
+        "question": "From the H&E slide at {path_to_slide}, can you determine if the tumor is estrogen receptor (ER) positive or negative?",
+        "rationale": "ER status guides the use of endocrine therapy and is a major prognostic biomarker in breast cancer.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must have `slide_id` and `er_status`, with values `positive` or `negative`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"er_status\": \"positive\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "er_status": [
+                "positive",
+                "negative",
+                "ER positive",
+                "ER negative",
+                "ER-positive",
+                "ER-negative"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "2",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A04Q-01Z-00-DX1.DF7ED6B6-7701-486D-9007-F26B6F0682C4.svs",
+        "question": "Based on the H&E slide at {path_to_slide}, is the tumor progesterone receptor (PR) positive or negative?",
+        "rationale": "PR status, in combination with ER, refines prognosis and influences endocrine therapy decisions.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must contain `slide_id` and `pr_status`, with values `positive` or `negative`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"pr_status\": \"positive\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "pr_status": [
+                "positive",
+                "negative",
+                "PR positive",
+                "PR negative",
+                "PR-positive",
+                "PR-negative"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "3",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A8-A08R-01Z-00-DX1.72FBD9A3-5EB9-4855-89EB-697883C2EA9B.svs",
+        "question": "Is the histology slide at {path_to_slide} triple negative breast cancer (TNBC) or not?",
+        "rationale": "Triple negative breast cancer (TNBC) is defined by the absence of ER, PR, and HER2 expression. Identifying TNBC is crucial as it has distinct clinical implications and treatment strategies.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary should have `slide_id` and `tnbc_status` with values `positive` (yes TNBC) or `negative` (not TNBC). For example, save using the following format: [{\"slide_id\": \"slide1\", \"tnbc_status\": \"negative\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "tnbc_status": [
+                "positive",
+                "negative",
+                "TNBC positive",
+                "TNBC negative",
+                "TNBC-positive",
+                "TNBC-negative"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "4",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-AN-A0AT-01Z-00-DX1.DFD68CD2-C25E-47BE-BC06-8CE3C657B9FD.svs",
+        "question": "What is the most likely histological subtype of the breast tumor captured in the slide at {path_to_slide}? Choose from invasive ductal, invasive lobular, metaplastic, or mixed subtype.",
+        "rationale": "Breast cancer subtype classification affects prognosis and therapeutic approaches.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must contain `slide_id` and `subtype`. Accepted values are `invasive ductal`, `invasive lobular`, `metaplastic`, or `mixed subtype`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"subtype\": \"invasive lobular\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "subtype": [
+                "invasive ductal",
+                "ductal",
+                "IDC",
+                "invasive lobular",
+                "lobular",
+                "ILC",
+                "metaplastic",
+                "mixed subtype",
+                "mixed"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "5",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A3XS-01Z-00-DX1.867925C0-91D8-40A0-9FEA-25A635AC31E7.svs",
+        "question": "Looking at the histology image at {path_to_slide}, does the tumor suggest a high or low likelihood of recurrence?",
+        "rationale": "Estimating recurrence risk helps guide therapy and long-term management strategies.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each entry must include `slide_id` and `recurrence_risk` with values `high` or `low`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"recurrence_risk\": \"low\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "recurrence_risk": [
+                "high",
+                "low",
+                "likely recurrence",
+                "unlikely recurrence"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "6",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-AN-A0AT-01Z-00-DX1.DFD68CD2-C25E-47BE-BC06-8CE3C657B9FD.svs",
+        "question": "Does the tumor in the slide at {path_to_slide} have a TTN mutation (yes or no)?",
+        "rationale": "TTN mutations are common in breast cancer and may impact tumor biology and response to immunotherapy.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary should have `slide_id` and `ttn_mutation` with values `yes` or `no`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"ttn_mutation\": \"no\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "ttn_mutation": [
+                "yes",
+                "no",
+                "present",
+                "absent"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "7",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-S3-AA15-01Z-00-DX2.915A4F90-25CB-4535-99C7-D0D0CFC90412.svs",
+        "question": "Does the tumor tissue at {path_to_slide} have ERBB2 amplification (yes or no)?",
+        "rationale": "ERBB2 amplification drives tumor growth and is critical for determining eligibility for HER2-targeted therapy.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary should contain `slide_id` and `erbb2_amplification` with values `yes` or `no`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"erbb2_amplification\": \"yes\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "erbb2_amplification": [
+                "yes",
+                "no",
+                "amplified",
+                "not amplified"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "8",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-GM-A2DD-01Z-00-DX1.01332FF3-7488-41B7-A515-7841715DE92B.svs",
+        "question": "Does the histology image at {path_to_slide} show invasive or non-invasive breast cancer?",
+        "rationale": "Distinguishing invasive from non-invasive disease informs staging, prognosis, and treatment planning.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must include `slide_id` and `invasion_status`, with values `invasive` or `non-invasive`. For example, save using the following format: [{\"slide_id\": \"slide1\", \"invasion_status\": \"non-invasive\"}] in constructing the answer.json.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "invasion_status": [
+                "invasive",
+                "non-invasive"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "9",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/TTN_mutation/splits.csv",
+        "question": "I have WSIs at {path_to_dataset}. Can you extract conch_v15 mean-pool and titan slide embeddings, and perform a 5-fold cross-validation using the slide embeddings to predict TTN mutation. Use AUC as the evaluation metric to determine if the performance with titan embeddings is statistically higher than with conch_v15 mean-pool embeddings?",
+        "rationale": "Comparing embedding strategies helps identify the most reliable feature representation for mutation prediction, with implications for biomarker discovery and computational pathology pipelines.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Use {path_to_metadata} for patient ids, slide ids, TTN mutation labels, and predefined train-test splits. Only use the slide_ids that are present in the metadata and ignore any slides not present in metadata. Use patch size of 512 at 20x and 0 overlap for the tissue tiling stage. Train linear probes (C=0.05, solver=lbfgs, max_iter=10000) on the embeddings. Conduct a one-sided Mann-Whitney U test to assess significance between methods to compare the performances with the two approaches. Set the seed to 42 to ensure reproducibility.",
+        "output_instructions": "You must save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** (JSON array). Use json.dump() with indent=4 for readability. Your JSON should contain keys `mean_mean_pool_auc`, `mean_titan_pool_auc`, and `p_value`. Round all values to 3 decimal places. For example: [{\"mean_mean_pool_auc\": 0.62, \"mean_titan_pool_auc\": 0.71, \"p_value\": 0.04}].",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "mean_mean_pool_auc": 0.15,
+            "mean_titan_pool_auc": 0.15,
+            "p_value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "10",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/fraction_genome_altered/metadata.csv",
+        "question": "Classify all WSIs at {path_to_dataset} into high and low recurrence risk and report the number of cases in each category. For patients who also have fraction genome altered data, compare mean fraction genome altered between the predicted high and low recurrence groups and test whether the difference is statistically significant.",
+        "rationale": "Recurrence risk stratification is clinically important, and its relationship with fraction genome altered provides insights into disease aggressiveness and therapeutic strategies.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Use {path_to_metadata} to get set of patient ids, slide names and fraction genome altered data. Use a two-sided Mann-Whitney U test to compare fraction genome altered distributions between predicted recurrence groups (patients with predicted recurrence groups but no fraction genome data can be ignored).",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. The dictionary must include numeric keys: `number_high_recurrence_likelihood` (int), `number_low_recurrence_likelihood` (int), `avg_fga_in_high_recurrence_likelihood` (float, round to 4 decimal places), `avg_fga_in_low_recurrence_likelihood` (float, round to 4 decimal places), and `p-value` (float, round to 3 decimal places). For example, save using the following format: [{\"number_high_recurrence_likelihood\": 45, \"number_low_recurrence_likelihood\": 67, \"avg_fga_in_high_recurrence_likelihood\": 5.3, \"avg_fga_in_low_recurrence_likelihood\": 3.8, \"p-value\": 0.02}] in constructing the answer.json.",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "number_high_recurrence_likelihood": 0.15,
+            "number_low_recurrence_likelihood": 0.15,
+            "avg_fga_in_high_recurrence_likelihood": 0.15,
+            "avg_fga_in_low_recurrence_likelihood": 0.15,
+            "p-value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "11",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/OS_days/metadata.csv",
+        "question": "Classify all WSIs at {path_to_dataset} into high and low likelihood of TP53 mutation and report the number of cases in each category. For patients who also have survival data, compare mean overall survival days between the predicted high- and low-likelihood groups and test whether the difference is statistically significant. Consider both censored and uncensored patients.",
+        "rationale": "TP53 alterations are linked to prognosis; relating predicted mutation propensity to survival helps validate risk stratification from histology-derived features.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Use {path_to_metadata} for patient ids, slide ids, and survival days. Use a two-sided Mann-Whitney U test to compare survival days distributions between groups. Patients missing survival data can be ignored for the survival comparison.",
+        "output_instructions": "You must save your results to a JSON file named `answer.json` in your working directory. The file must contain a list of dictionaries (JSON array). Use json.dump() with indent=4 for readability. The dictionary must include numeric keys: `number_high_likelihood` (int), `number_low_likelihood` (int), `avg_survival_days_in_high_likelihood` (float, round to 1 decimal place), `avg_survival_days_in_low_likelihood` (float, round to 1 decimal place), and `p-value` (float, round to 3 decimal places). For example: [{\"number_high_likelihood\": 38, \"number_low_likelihood\": 74, \"avg_survival_days_in_high_likelihood\": 820.5, \"avg_survival_days_in_low_likelihood\": 1160.2, \"p-value\": 0.010}].",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "number_high_likelihood": 0.15,
+            "number_low_likelihood": 0.15,
+            "avg_survival_days_in_high_likelihood": 1.0,
+            "avg_survival_days_in_low_likelihood": 1.0,
+            "p-value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "12",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/MYC_amplification_retrieval/metadata_known.csv",
+        "question": "For the WSIs at {path_to_dataset} I know the MYC amplification status of 10 WSIs, which I have collected in a csv. For the remaining WSIs in {path_to_dataset} (whose MYC amplification status is not known) can you predict MYC amplification status (positive=1, negative=0)?",
+        "rationale": "MYC amplification is a significant biomarker in breast cancer; identifying positive cases provides better cohort characterization and supports downstream analyses.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The 10 WSI for which we know the MYC amplification labels are included in the csv at {path_to_metadata} (1 = positive, 0 = negative); the slide ids not present in the metadata are the ones for which I want to know the MYC amplification label. You can choose to use the data with known labels or not use it at all. Come up with a reasonable plan and execute it. Make sure you do not return the labels of the WSIs with known MYC amplification status.",
+        "output_instructions": "You must save your results to a JSON file named `answer.json` in your working directory. The file must contain a list of dictionaries (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must include the key `slide_id` (name of slide without extension) and `myc_amplification_status`. For example: [{\"slide_id\": \"slide_id1\", \"myc_amplification_status\": 0}].",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "myc_amplification_status": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "13",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/PTEN_deletion_retrieval/metadata_known.csv",
+        "question": "For the WSIs at {path_to_dataset} I know the PTEN deletion status of 10 WSIs, which I have collected in a csv. For the remaining WSIs in {path_to_dataset} (whose PTEN deletion status is not known) can you predict PTEN deletion status (deleted=1, not deleted=0)?",
+        "rationale": "PTEN deletion is a critical tumor suppressor alteration in breast cancer; identifying deleted cases improves understanding of tumor progression and potential therapeutic targets.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The 10 WSI for which we know the PTEN deletion labels are included in the csv at {path_to_metadata} (1 = deleted, 0 = not deleted); the slide ids not present in the metadata are the ones for which I want to know the PTEN deletion label. You can choose to use the data with known labels or not use it at all. Come up with a reasonable plan and execute it. Make sure you do not return the labels of the WSIs with known PTEN deletion status (provided to you).",
+        "output_instructions": "You must save your results to a JSON file named `answer.json` in your working directory. The file must contain a list of dictionaries (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must include the key `slide_id` (name of slide without extension) and `pten_deletion_status`. For example: [{\"slide_id\": \"slide_id1\", \"pten_deletion_status\": 1}].",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "pten_deletion_status": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "14",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/trident_processed/20x_512px_0px_overlap/features_conch_v15/",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/recurred/splits.csv",
+        "question": "I have extracted the patch features for my WSIs at {path_to_dataset} and now I am interested in investigating if the number of heads of an ABMIL model can help improve performance in predicting recurrence. Can you use the provided splits and patch features to train and test ABMIL models with 1, 2, 4, and 6 heads; use average AUC across folds to compare different models.",
+        "rationale": "Exploring the effect of attention head number in ABMIL models can optimize representation learning and improve predictive performance on WSI-level tasks.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Use {path_to_metadata} for predefined training and test splits and the labels for each slide. conch_v15 patch features for all WSIs are available at {path_to_dataset}. Train ABMIL models with 1, 2, 4, and 6 attention heads. Use a training configuration of 20 epochs, learning rate of 1e-3, adamw optimizer, batch size of 1, cross_entropy criterion, and no sampling during training. Report mean test AUC across folds for each head configuration. Please do not re-extract patch features in any circumstance.",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. Each dictionary must include `num_heads` (int) and `avg_auc` (average test auc across folds, float, round to 3 decimal places). For example, save using the following format: [{\"num_heads\": 1, \"avg_auc\": 0.72}, {\"num_heads\": 2, \"avg_auc\": 0.74}, {\"num_heads\": 4, \"avg_auc\": 0.77}, {\"num_heads\": 6, \"avg_auc\": 0.75}] in constructing the answer.json.",
+        "id_column": "num_heads",
+        "columns_to_compare_and_tolerance": {
+            "avg_auc": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "15",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat",
+        "path_to_metadata": "tcga_brca_to_use/tcga_brca_metadata/PTEN_deletion/splits.csv",
+        "question": "I have a dataset of WSI at {path_to_dataset}. Can you process this dataset (20x mag, 512 patch size, 0 overlap) and train a single-head ABMIL model to predict PTEN deletion in a 5-fold study? Then, using the test set of the fold with the highest test AUC, find, extract, and save the top-10 highest-attention patches (512 patch size at 20x mag, 0 overlap) per WSI from the test set. For those patches, detect neoplastic nuclei and compute their circularity and solidity (averaging per neoplastic nuclei solidity and circularity across all of the top-10 patches per slide to get a slide-level circularity and solidity), and test whether the distributions of these morphometric features differ between predicted PTEN-deleted and non-deleted WSI.",
+        "rationale": "Linking slide-level predictions with tile-level neoplastic morphology (circularity, solidity) can reveal phenotype-genotype associations for PTEN mutation.",
+        "additional_instructions": "Your working directory is: {working_dir}. Use {path_to_metadata} for predefined 5-fold splits and PTEN status labels (1=mutated, 0=non-mutated). Train a single-head ABMIL  with: 10 epochs, learning rate of 3e-3, adamw optimizer, batch size of 1, cross_entropy criterion, and no sampling during training. Before ranking patches by their attention scores, make sure to normalize raw scores per WSI to [0,1] by ranking them with average tie handling and dividing by the total number of scores for the WSI. You can work in pixel space to compute nuclear features. Use two-sided Mann-Whitney U tests to compare mutated vs non-mutated distributions for circularity (p_value_circularity) and solidity (p_value_solidity). The high attention patches are saved as pngs and have a mpp equal to level 0 mpp of the corresponding svs WSIs. Make sure you scale the patch size correctly to level 0 mpp of the WSI  before extracting the top-10 patches.",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs (JSON array). Use json.dump() with indent=4 for readability. The dictionary must include numeric keys: `avg_auc` (mean AUC across 5 folds), `fold_with_highest_auc`, `highest_auc` (float rounded to 3 decimals), `avg_neoplastic_circularity_high_attention_deleted` (avg neoplastic circularity from predicted PTEN deletion, 3 decimals), `avg_neoplastic_solidity_high_attention_deleted` (avg neoplastic solidity from predicted PTEN deletion, 3 decimals), `avg_neoplastic_circularity_high_attention_non_deleted` (avg neoplastic circularity from predicted PTEN non-deleted, 3 decimals), `avg_neoplastic_solidity_high_attention_non_deleted` (avg neoplastic solidity from predicted PTEN non-deleted, 3 decimals), `p_value_circularity` (3 decimals), and `p_value_solidity` (3 decimals). For example: [{\"avg_auc\": 0.81, \"fold_with_highest_auc\": 3, \"highest_auc\": 0.87, \"avg_neoplastic_circularity_high_attention_deleted\": 0.74, \"avg_neoplastic_solidity_high_attention_deleted\": 0.91, \"avg_neoplastic_circularity_high_attention_non_deleted\": 0.68, \"avg_neoplastic_solidity_high_attention_non_deleted\": 0.88, \"p_value_circularity\": 0.007, \"p_value_solidity\": 0.031}].",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "avg_auc": 0.15,
+            "fold_with_highest_auc": 0.001,
+            "highest_auc": 0.15,
+            "avg_neoplastic_circularity_high_attention_deleted": 0.15,
+            "avg_neoplastic_solidity_high_attention_deleted": 0.15,
+            "avg_neoplastic_circularity_high_attention_non_deleted": 0.15,
+            "avg_neoplastic_solidity_high_attention_non_deleted": 0.15,
+            "p_value_circularity": 0.15,
+            "p_value_solidity": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    }
+]

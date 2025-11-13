@@ -1,0 +1,13 @@
+[
+  {
+    "avg_auc": 0.587,
+    "fold_with_highest_auc": 0,
+    "highest_auc": 0.667,
+    "avg_neoplastic_circularity_high_attention_deleted": 0.767,
+    "avg_neoplastic_solidity_high_attention_deleted": 0.952,
+    "avg_neoplastic_circularity_high_attention_non_deleted": 0.751,
+    "avg_neoplastic_solidity_high_attention_non_deleted": 0.942,
+    "p_value_circularity": 0.198,
+    "p_value_solidity": 0.071
+  }
+]

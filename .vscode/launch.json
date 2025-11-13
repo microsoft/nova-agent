@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+        },
+        {
+            "name": "Run experiment",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/nova/experiments/run_experiment.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                // "--config-name=experiments/llm_only",
+                // "--config-name=experiments/llm_with_pi",
+                // "--config-name=experiments/llm_with_pi_and_retries",
+                // "--config-name=experiments/codeagent_without_tools",
+                // "--config-name=experiments/codeagent_with_rag",
+                "--config-name=experiments/codeagent_with_tools",
+                "categories=['data_qa']",
+                // "benchmark.limit=2",
+                "benchmark.question_ids=['2']",
+                "baseline.llm.api_config.deployment_name=gpt-4.1",
+                "baseline.llm.api_config.base_url=<your_base_url>",
+                "benchmark.root_path=benchmark",
+                // "dataset.subset_relative_path=tcga_brca_micro/WSI",  // note these don't match exactly the ground truth.
+            ]
+        },
+    ]
+}

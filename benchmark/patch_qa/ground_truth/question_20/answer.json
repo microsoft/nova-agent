@@ -1,0 +1,22 @@
+[
+  {
+    "fold_idx": 0,
+    "auroc": 0.408
+  },
+  {
+    "fold_idx": 1,
+    "auroc": 0.442
+  },
+  {
+    "fold_idx": 2,
+    "auroc": 0.55
+  },
+  {
+    "fold_idx": 3,
+    "auroc": 0.304
+  },
+  {
+    "fold_idx": 4,
+    "auroc": 0.402
+  }
+]

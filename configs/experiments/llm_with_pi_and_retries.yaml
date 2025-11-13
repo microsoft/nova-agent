@@ -1,0 +1,10 @@
+#@package __global__
+
+defaults:
+  - shared/experiment@_here_
+  - shared/base_llm_with_pi@baseline
+  - _self_
+
+baseline:
+  type: "llm_with_python_interpreter_and_retries"
+  max_retries: 20

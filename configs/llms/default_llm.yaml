@@ -1,0 +1,3 @@
+deployment_name: gpt-4.1
+base_url: <your_base_url>
+api_version: "2025-01-01-preview"

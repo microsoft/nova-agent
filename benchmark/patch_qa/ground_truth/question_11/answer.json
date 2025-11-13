@@ -1,0 +1,22 @@
+[
+  {
+    "fold_idx": 0,
+    "test_recall": 0.333
+  },
+  {
+    "fold_idx": 1,
+    "test_recall": 0.0
+  },
+  {
+    "fold_idx": 2,
+    "test_recall": 0.0
+  },
+  {
+    "fold_idx": 3,
+    "test_recall": 0.0
+  },
+  {
+    "fold_idx": 4,
+    "test_recall": 0.333
+  }
+]

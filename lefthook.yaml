@@ -1,0 +1,4 @@
+post-checkout:
+  jobs:
+    - name: Sync Python environment
+      run: uv sync

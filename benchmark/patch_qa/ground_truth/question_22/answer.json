@@ -1,0 +1,14 @@
+[
+  {
+    "group": "high_MYC_amplification",
+    "mean_pleomorphism": 17.039,
+    "n_patients": 94,
+    "p_value": 0.285
+  },
+  {
+    "group": "low_MYC_amplification",
+    "mean_pleomorphism": 15.74,
+    "n_patients": 17,
+    "p_value": 0.285
+  }
+]

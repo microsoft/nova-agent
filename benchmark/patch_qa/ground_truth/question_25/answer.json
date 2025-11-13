@@ -1,0 +1,10 @@
+[
+  {
+    "model": "clinical_only",
+    "mean_c_index": 0.793
+  },
+  {
+    "model": "clinical_plus_solidity",
+    "mean_c_index": 0.795
+  }
+]

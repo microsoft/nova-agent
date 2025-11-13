@@ -1,0 +1,22 @@
+categories:
+  # - data_qa
+  - cellular_qa
+  # - patch_qa
+
+benchmark:
+  # root_path: "/datasetdrive/biomedimagingftewestus2/biodataagents/benchmark"
+  root_path: "benchmark"
+  limit: null
+  question_ids: []
+  reverse_order: false
+
+dataset:
+  root_path: "/datasetdrive/biomedimagingftewestus2/biodataagents/datasets"
+  subset_relative_path: "tcga_brca_to_use/WSI_flat"
+
+run:
+  root_working_dir: "outputs"
+  subfolder_working_dir: true
+  n_times: 1 # TODO
+  huggingface_cache: null
+  sleep_sec: 30

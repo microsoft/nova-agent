@@ -1,0 +1,7 @@
+[
+  {
+    "mean_mean_pool_auc": 0.393,
+    "mean_titan_pool_auc": 0.503,
+    "p_value": 0.03
+  }
+]

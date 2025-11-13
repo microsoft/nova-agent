@@ -1,0 +1,21 @@
+{
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "usernamehw.errorlens",
+        "tamasfe.even-better-toml",
+        "foxundermoon.shell-format",
+        "charliermarsh.ruff",
+        "davidanson.vscode-markdownlint",
+        "ms-toolsai.jupyter",
+        "mhutchie.git-graph",  // for visualizing git history
+        "eamodio.gitlens",  // for more git features - useful for custom cherry-picking
+        "github.vscode-pull-request-github",  // for managing PRs
+    ],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+        "ms-python.flake8"
+	]
+}

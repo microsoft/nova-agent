@@ -1,0 +1,25 @@
+{
+    "run_args": {
+        "batch_size": 16,
+        "nr_inference_workers": 2,
+        "nr_post_proc_workers": 2,
+        "patch_input_shape": 256,
+        "patch_output_shape": 164,
+        "input_dir": "/path/to/input",
+        "output_dir": "/path/to/output",
+        "mem_usage": 0.5,
+        "draw_dot": true,
+        "save_qupath": false,
+        "save_raw_map": true
+    },
+    "method_args": {
+        "method": {
+            "model_args": {
+                "nr_types": 6,
+                "mode": "fast"
+            },
+            "model_path": "path/to/model.tar"
+        },
+        "type_info_path": "path/to/type/info.json"
+    }
+}

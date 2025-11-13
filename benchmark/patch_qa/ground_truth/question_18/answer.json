@@ -1,0 +1,14 @@
+[
+  {
+    "pten_status": "deletion",
+    "mean_eccentricity": 0.567,
+    "n_patients": 58,
+    "p_value": 0.936
+  },
+  {
+    "pten_status": "no_deletion",
+    "mean_eccentricity": 0.604,
+    "n_patients": 53,
+    "p_value": 0.936
+  }
+]

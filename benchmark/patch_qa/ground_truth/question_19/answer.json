@@ -1,0 +1,14 @@
+[
+  {
+    "recurrence_status": "recurrent",
+    "mean_clustering_score": 30.489,
+    "n_patients": 16,
+    "p_value": 0.039
+  },
+  {
+    "recurrence_status": "non_recurrent",
+    "mean_clustering_score": 42.044,
+    "n_patients": 93,
+    "p_value": 0.039
+  }
+]

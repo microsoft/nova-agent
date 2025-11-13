@@ -1,0 +1,9 @@
+[
+  {
+    "number_high_likelihood": 90,
+    "number_low_likelihood": 25,
+    "avg_survival_days_in_high_likelihood": 1271.3,
+    "avg_survival_days_in_low_likelihood": 1185.52,
+    "p-value": 0.778
+  }
+]

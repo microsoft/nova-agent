@@ -1,0 +1,13 @@
+[tools]
+just = "latest"
+lefthook = "latest"
+azure-cli = "latest"
+uv = "0.7.8"
+python = "3.11.11"
+
+[settings]
+idiomatic_version_file_enable_tools = []
+
+[env]
+AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
+AZURE_CORE_USE_MSAL_HTTP_CACHE = "false"

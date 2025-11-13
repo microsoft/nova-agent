@@ -1,0 +1,10 @@
+#@package __global__
+
+defaults:
+  - shared/experiment@_here_
+  - shared/base_toolcalling_agent@baseline
+  - _self_
+
+baseline:
+  type: "toolcalling_agent_with_tools"
+  tools_category: all
