@@ -1,0 +1,42 @@
+name: PR checks
+
+on:
+  pull_request:
+    # Use the default trigger events (opened, synchronize, reopened) because
+    # its jobs do not have any conditional logic based on the draft status of the PR.
+    types: [opened, synchronize, reopened]
+
+  workflow_dispatch:
+
+# Cancel previous runs of this workflow that are still in progress.
+concurrency:
+  group: ${{ github.ref }}/checks
+  cancel-in-progress: true
+
+env:
+  FORCE_COLOR: 1
+
+permissions:
+  # This is required for actions/checkout
+  contents: read
+
+jobs:
+  run_code_quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create environment
+        uses: ./.github/actions/setup-environment
+
+      - name: Run ruff for linting
+        if: ${{ always() }}
+        run: just lint_diff
+
+      - name: Run ruff for formatting
+        if: ${{ always() }}
+        run: just format_diff
+
+      - name: Run pyright for type checking
+        if: ${{ always() }}
+        run: just types
