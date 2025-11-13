@@ -1,0 +1,22 @@
+[
+  {
+    "fold_idx": 0,
+    "test_auprc": 0.253
+  },
+  {
+    "fold_idx": 1,
+    "test_auprc": 0.255
+  },
+  {
+    "fold_idx": 2,
+    "test_auprc": 0.201
+  },
+  {
+    "fold_idx": 3,
+    "test_auprc": 0.81
+  },
+  {
+    "fold_idx": 4,
+    "test_auprc": 0.114
+  }
+]

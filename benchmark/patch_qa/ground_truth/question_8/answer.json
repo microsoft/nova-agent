@@ -1,0 +1,52 @@
+[
+  {
+    "fold_idx": 0,
+    "model": "svm",
+    "test_balanced_accuracy": 0.5
+  },
+  {
+    "fold_idx": 0,
+    "model": "logistic_regression",
+    "test_balanced_accuracy": 0.518
+  },
+  {
+    "fold_idx": 1,
+    "model": "svm",
+    "test_balanced_accuracy": 0.5
+  },
+  {
+    "fold_idx": 1,
+    "model": "logistic_regression",
+    "test_balanced_accuracy": 0.464
+  },
+  {
+    "fold_idx": 2,
+    "model": "svm",
+    "test_balanced_accuracy": 0.5
+  },
+  {
+    "fold_idx": 2,
+    "model": "logistic_regression",
+    "test_balanced_accuracy": 0.631
+  },
+  {
+    "fold_idx": 3,
+    "model": "svm",
+    "test_balanced_accuracy": 0.5
+  },
+  {
+    "fold_idx": 3,
+    "model": "logistic_regression",
+    "test_balanced_accuracy": 0.673
+  },
+  {
+    "fold_idx": 4,
+    "model": "svm",
+    "test_balanced_accuracy": 0.5
+  },
+  {
+    "fold_idx": 4,
+    "model": "logistic_regression",
+    "test_balanced_accuracy": 0.548
+  }
+]

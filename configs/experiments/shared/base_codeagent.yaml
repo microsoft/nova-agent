@@ -1,0 +1,44 @@
+defaults:
+  - libraries@libraries
+  - /llms/default_llm@llm.api_config
+  - _self_
+
+# llm args
+llm:
+  temperature: 0.0
+  max_retries: 20  # these are internal retries for the LLM calls
+
+# agent args
+agent:
+  executor_type: "local"
+  planning_interval: null # don't use 0, give integer modulo by zero error
+  use_structured_outputs_internally: true
+  verbosity_level: 1
+  provide_run_summary: false
+  max_steps: 20
+  description: |
+    The simple code agent uses ${..libraries.datascience} and ${..libraries.builtin_modules} libraries to write code to answer the user's queries.
+  common_instructions: |
+    ## Security Restrictions
+    - **Strict restrictions:** You are absolutely not allowed to use these modules in your code: ['os']
+    ## Core Objectives & Approach
+    - Your primary goal is to help the user fully achieve their objective.
+    - Always address the user's underlying question or need, not just the surface request. Ensure your answer is complete and fully covers the question and any related aspects.
+    - **Task Decomposition:** Break down complex tasks into smaller, manageable subtasks and address them sequentially. Execute each subtask one by one, using the appropriate tools and libraries.
+    ## Library & Tool Usage
+    - **Task Resolution:** Only generate tools and functions from scratch if provided tools and libraries are not able to solve the task.
+    - **Computer Vision:** When working with image processing, contours, segmentation, or spatial analysis tasks, make use of existing computer vision libraries (cv2, skimage, scipy.spatial and others) before writing custom implementations from scratch.
+    - The machine you're running in has a gpu. Make sure to always use cuda:0 when a device is required to run a tool.
+    ## Output & Communication
+    - Display or share outputs—such as figures, files, or results—directly with the user whenever possible.
+    - Exactly follow user instructions on output format, file names, and other details.
+    - Communicate in a sincere, helpful, and user-focused way. Be clear, honest, and avoid unnecessary jargon.
+
+  custom_instructions: ""
+  special_instructions: |
+    Agent Guidelines
+    ${.common_instructions}
+    ${.custom_instructions}
+  prompt_templates_path: prompts/general_system_prompts/structured_code_agent_prompt_template.yaml # for structured outputs
+
+question_instructions: ""

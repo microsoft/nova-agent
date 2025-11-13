@@ -1,0 +1,382 @@
+[
+  {
+    "id": "1",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each breast histology image in {path_to_dataset}, what is the neoplastic cellularity percentage, defined as (number of neoplastic cell nuclei / total number of nuclei) * 100?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Don`t consider any background nuclei.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Percentages should be float values between 0 and 100 with exactly 2 decimal places. For example, if the image name is `sample1.tif` and the neoplastic cellularity is 54.32%, you should save: [{\"slide_id\": \"sample1\", \"neoplastic_cellularity_percentage\": 54.32}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "neoplastic_cellularity_percentage": 0.15
+    },
+    "rationale": "Accurate quantification of neoplastic cellularity is essential for assessing neoplastic burden, eligibility for molecular testing, and making informed treatment decisions in oncology.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "2",
+    "data_type": "summary",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "I have multiple histology images at {path_to_dataset}. Please report the number of images that have a density of nucleated cells (number of cells/mm²) greater than or equal to 10,000 cells/mm².",
+    "rationale": "Cell density reflects tissue cellularity and tumor burden; identifying highly cellular slides can inform diagnostic assessment and downstream analyses.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. In this scenario, cell density is defined as the total number of nucleated cells divided by the total image area in mm². The images are scanned at 0.25 mpp. Count only nucleated cells (exclude any objects labeled/background or non-nucleated).",
+    "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** with your outputs. Use json.dump() with indent=4 for readability. The dictionary must include the integer key `num_images_density_ge_10000`. For example, save using the following format: [{\"num_images_density_ge_10000\": 42}] to the answer.json file with proper indentation.",
+    "id_column": null,
+    "columns_to_compare_and_tolerance": {
+      "num_images_density_ge_10000": 0.15
+    },
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "3",
+    "data_type": "single_wsi",
+    "slide_relative_path": "panoptils_idc_mini/rgbs/TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024.png",
+    "question": "For the histology image at {path_to_slide}, what is the ratio of total area covered by stromal cells to total area covered by neoplastic cells?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Stromal cells include connective, inflammatory, and immune cells. Since we rarely see cell boundaries on H&E images, you can estimate cell contours by scaling the detected nuclear contours by a factor of 1.25 (make sure to center the contour on the centroid before scaling and then translate back). All images are at a base magnification of 0.25 microns per pixel.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The ratio should be rounded to 2 decimal places. For example, if the slide name is `slide1.svs` and the ratio is 0.758, you should save: [{\"slide_id\": \"slide1\", \"stromal_to_neoplastic_ratio\": 0.76}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "stromal_to_neoplastic_ratio": 0.15
+    },
+    "rationale": "The stromal-to-neoplastic ratio is prognostic in several cancers, with higher ratio indicating a poorer prognosis and potentially different therapeutic approaches.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "4",
+    "data_type": "single_wsi",
+    "slide_relative_path": "panoptils_idc_mini/rgbs/TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096.png",
+    "question": "For the histology image at {path_to_slide}, detect all nuclei and classify them as neoplastic or non-neoplastic. What is the ratio of the number of neoplastic nuclei to the number of non-neoplastic nuclei?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Do not consider background and debri nuclei in your counts for non-neoplastic nuclei.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The ratio should be a float rounded to 1 decimal place. For example, if the slide name is `slide1.svs` and the ratio is 2.135, you should save: [{\"slide_id\": \"slide1\", \"neoplastic_to_non_neoplastic_ratio\": 2.1}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "neoplastic_to_non_neoplastic_ratio": 0.15
+    },
+    "rationale": "The neoplastic-to-non-neoplastic nuclei ratio gives a quantitative measure of neoplastic purity and is useful for selecting samples for downstream molecular analyses.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "5",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "monuseg/rgbs/",
+    "question": "For each image in {path_to_dataset}, report the mean nuclear area in µm²?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Mean nuclear area is defined as sum of areas covered by all nuclei contours / number of nuclei. The images were scanned at a resolution of 0.25 microns per pixel.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Nuclear areas should be float values in µm² with exactly 1 decimal place. For example, if the image name is `sample1.tif` and the mean nuclear area is 84.27 µm², you should save: [{\"slide_id\": \"sample1\", \"mean_nuclear_area\": 84.3}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "mean_nuclear_area": 0.15
+    },
+    "rationale": "Mean nuclear area is a key morphometric parameter used in neoplastic grading and correlates with neoplastic aggressiveness and histological subtype.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "6",
+    "data_type": "summary",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "What are the 25th, 50th, and 75th percentiles of immune cell densities (cells/mm²) across the histology images at {path_to_dataset}?",
+    "rationale": "Quantifying immune cell infiltration helps assess the tumor immune microenvironment and can predict response to immunotherapies.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Immune cell density is defined as the number of immune cells in an image divided by the total image area in mm². The base magnification of the images is 0.25 microns per pixel.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The dictionary must include the float keys \"p25_immune_density\", \"p50_immune_density\", and \"p75_immune_density\" (cells/mm²), rounded to 2 decimal places. For example, save using the following format: [{\"p25_immune_density\": 4123.45, \"p50_immune_density\": 6890.12, \"p75_immune_density\": 9820.77}] to the answer.json file with proper indentation.",
+    "id_column": null,
+    "columns_to_compare_and_tolerance": {
+      "p25_immune_density": 0.15,
+      "p50_immune_density": 0.15,
+      "p75_immune_density": 0.15
+    },
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "7",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each image in {path_to_dataset}, determine the ratio of the number of lymphocyte nuclei to neoplastic nuclei.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The ratio should be a float rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the ratio is 0.58, you should save: [{\"slide_id\": \"sample1\", \"lymphocyte_to_neoplastic_ratio\": 0.58}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "lymphocyte_to_neoplastic_ratio": 0.15
+    },
+    "rationale": "The lymphocyte-to-neoplastic nuclei ratio is a quantitative biomarker for immune infiltration and has prognostic and predictive value, especially in immunotherapy-treated cancers.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "8",
+    "data_type": "summary",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "How many histology images at {path_to_dataset}, have a neoplastic-to-stroma nuclei area ratio of 0, <= 1, and > 1?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Stroma area is the sum of areas for nuclei classified as connective, inflammatory, and immune cells. Do calculations in pixel space only.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. For example, if your calculated counts are 5 images with ratio 0, 10 images with ratio <= 1, and 3 images with ratio > 1, you should save: [{\"ratio_count_0\": 5, \"ratio_count_le_1\": 10, \"ratio_count_gt_1\": 3}] to the answer.json file with proper indentation.",
+    "id_column": null,
+    "columns_to_compare_and_tolerance": {
+      "ratio_count_0": 0.15,
+      "ratio_count_le_1": 0.15,
+      "ratio_count_gt_1": 0.15
+    },
+    "rationale": "A low TSR (high stroma content) is a likely predictor of poor prognosis.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "9",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each image in {path_to_dataset}, what is the density of tumor-infiltrating lymphocytes (TILs)?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. TIL density for an image is defined as the total number of lymphocytes located within 50 µm of each neoplastic cell (double-counting of immune cells allowed) divided by image area (in mm²). Images are scanned at 0.25 microns per pixel.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. TIL density should be a float in cells/mm² rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the TIL density is 87.65 cells/mm², you should save: [{\"slide_id\": \"sample1\", \"til_density\": 87.65}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "til_density": 0.15
+    },
+    "rationale": "High TIL density is associated with favorable prognosis and response to immune checkpoint therapies.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "10",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "kumar/rgbs/",
+    "question": "For each image in {path_to_dataset}, what is the average nuclear circularity per image? Nuclear circularity should be computed in pixel space.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Nuclear circularity should be calculated for each nucleus as (4π * area) / (perimeter²), using pixel space. Consider all detected nuclei in calculating the mean per image. If a nucleus has zero perimeter or area, set the circularity of that nucleus to 0.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Your calculated nuclear circularity should be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the mean nuclear circularity is 0.872, you should save: [{\"slide_id\": \"sample1\", \"mean_nuclear_circularity\": 0.87}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "mean_nuclear_circularity": 0.15
+    },
+    "rationale": "Average nuclear circularity quantifies nuclear shape, with deviations from circularity indicating malignancy.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "11",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each histology image in {path_to_dataset}, report the per image mean and standard deviation of neoplastic nuclei solidity.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Nuclear solidity for each neoplastic nucleus is defined as the ratio of nuclear area to nuclear convex hull area, calculated in pixel space. Compute mean and standard deviation of solidity across all neoplastic nuclei in the image. If convex hull area for any nucleus is 0, set its solidity to 0. If you dont find any neoplastic nuclei, set the mean and std of solidity of the image to 0.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif`, you should save: [{\"slide_id\": \"sample1\", \"mean_nuclear_solidity\": 0.87, \"std_dev_nuclear_solidity\": 0.05}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "mean_nuclear_solidity": 0.15,
+      "std_dev_nuclear_solidity": 0.15
+    },
+    "rationale": "Variation in nuclear solidity among neoplastic cells reflects pleomorphism, a classical feature used in grading and assessing neoplastic aggressiveness.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "12",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "monuseg/rgbs/",
+    "question": "For each image in {path_to_dataset}, compute the Euclidean distance from each nucleus centroid to its nearest neighboring nucleus centroid in microns. Report the standard deviation in nearest-neighbor distance among all nuclei in each image.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Distances should be computed in microns using a pixel size of 0.25 microns per pixel (mpp). If there are 0 or 1 nuclei detected, set the answer to 0 for the image.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the nuclear distance std is 5.32, you should save: [{\"slide_id\": \"sample1\", \"nuclear_distance_std_um\": 5.32}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "nuclear_distance_std_um": 0.15
+    },
+    "rationale": "High variance in nearest-neighbor distances can indicate architectural disorder, a known malignant feature in pathology.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "13",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "kumar/rgbs/",
+    "question": "In each histology image at {path_to_dataset}, what proportion of all detected nuclei have a nuclear-to-cytoplasmic area (N:C) ratio greater than 0.7?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. To estimate cytoplasmic area for each cell, first translate the nucleus contour to the origin using its centroid, scale the contour by a factor of 1.25, then translate it back. Cytoplasmic area is the difference between the area enclosed by the scaled contour and the area enclosed by the nuclear contour, calculated in pixel space. For each image, report the proportion of all detected nuclei with N:C ratio > 0.7 as a float between 0 and 1. If the cytoplasmic or nuclear area for any nucleus is 0, exclude it from the calculation. Please do not consider any background nuclei.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the proportion is 0.42, you should save: [{\"slide_id\": \"sample1\", \"proportion_nc_ratio_gt_0_7\": 0.42}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "proportion_nc_ratio_gt_0_7": 0.15
+    },
+    "rationale": "A high N:C ratio is a classic cytologic feature of malignant transformation and is used by pathologists to distinguish benign from malignant cells.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "14",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each histology image in {path_to_dataset}, what is the average Euclidean distance in micrometers between each neoplastic cell nucleus centroid and its five nearest neoplastic nuclei neighbors (or all available if fewer than five)?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. All images are scanned with a resolution of 0.25 microns-per-pixel. If no neoplastic nuclei are detected, set the answer to 0.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the average distance is 15.24, you should save: [{\"slide_id\": \"sample1\", \"average_distance_to_neighbors_um\": 15.24}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "average_distance_to_neighbors_um": 0.15
+    },
+    "rationale": "Measuring mean distance to nearest neighbors quantifies nuclear crowding, a feature of neoplastic progression that can impact clinical outcomes.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "15",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each histology image in {path_to_dataset}, what is the average chromatin condensation for detected neoplastic nuclei, as measured by the Haralick texture `contrast` feature?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Compute the Haralick contrast feature for each neoplastic nucleus individually, using the GLCM on the grayscale image within the segmentation mask for each nucleus (distance=1, angle=0, symmetric=True, normed=True). Then, average the contrast values across all neoplastic nuclei per image. If no neoplastic nuclei are found, set the answer to 0. All images are at a base magnification of 0.25 microns per pixel.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the average chromatin condensation is 0.56, you should save: [{\"slide_id\": \"sample1\", \"average_chromatin_condensation\": 0.56}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "average_chromatin_condensation": 0.15
+    },
+    "rationale": "Chromatin condensation, measured by Haralick contrast, reflects nuclear atypia and altered gene expression in malignant cells.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "16",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "kumar/rgbs/",
+    "question": "For each histology image in {path_to_dataset} what is the per image standard deviation in nuclear boundary irregularity, defined as the perimeter-to-area ratio in pixel space?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Compute the standard deviation in nuclear boundary irregularity across all detected nuclei.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the std dev nuclear irregularity is 0.14, you should save: [{\"slide_id\": \"sample1\", \"std_dev_nuclear_irregularity\": 0.14}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "std_dev_nuclear_irregularity": 0.15
+    },
+    "rationale": "Quantifying nuclear contour irregularity helps assess nuclear atypia and identifies aggressive neoplastic phenotypes.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "17",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "monuseg/rgbs/",
+    "question": "For each histology image in {path_to_dataset}, what is the coefficient of variation in nuclear roundness?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. For each nucleus detected, calculate roundness as 4π * Area / Perimeter² in pixel space. Compute the standard deviation and mean of all nuclear roundness, then report the coefficient of variation (CV = std/mean) for each image.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the CV nuclear roundness is 0.23, you should save: [{\"slide_id\": \"sample1\", \"cv_nuclear_roundness\": 0.23}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "cv_nuclear_roundness": 0.15
+    },
+    "rationale": "CV of nuclear roundness captures spatial heterogeneity in nuclear morphology, which is often associated with neoplastic aggressiveness and poor prognosis.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "18",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "kumar/rgbs/",
+    "question": "For each histology image in {path_to_dataset}, extract a feature vector for every nuclear boundary detected comprising nuclear area, eccentricity, solidity, and Haralick contrast. Apply z-score normalization to the features per image. Apply DBSCAN clustering to the extracted and normalized features. How many images have more than 3 clusters?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. All calculations are in pixel space. Haralick contrast must be calculated individually for each nucleus, using a binary mask for just that nucleus to mask the grayscale image (use default parameters). For clustering, use DBSCAN with eps=0.5, min_samples=5, and metric=`euclidean`. DBSCAN label -1 is noise and should not be counted towards the final cluster count. Don`t consider any background nuclei.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The value should be an integer. For example, if the image name is `sample1.tif` and there are 4 clusters, you should save: [{\"slide_id\": \"sample1\", \"number_of_clusters\": 4}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "number_of_clusters": 0.15
+    },
+    "rationale": "Clustering nuclear features enables identification of morphologic subclones, which can reflect neoplastic heterogeneity and resistance.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "19",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "kumar/rgbs/",
+    "question": "In each of the histology images at {path_to_dataset}, what is the Shannon entropy of the distribution of nuclear major axis length (measured in micrometers)?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Use 50 equal-width bins over the observed range and set density to False when computing the histogram. Exclude bins with zero probability from entropy calculation. Use log base 2 when computing Shannon entropy. The images are scanned at 0.25 microns per pixel resolution. Do not consider any background nuclei in the calculation.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the Shannon entropy major axis is 3.45, you should save: [{\"slide_id\": \"sample1\", \"shannon_entropy_major_axis\": 3.45}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "shannon_entropy_major_axis": 0.15
+    },
+    "rationale": "Shannon entropy of nuclear size diversity quantifies the heterogeneity of cell morphologies, which has prognostic value.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "20",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each histology image in {path_to_dataset}, what is the Gini coefficient of the distribution of neoplastic nuclear areas?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. All calculations are in pixel space. Compute the Gini coefficient using: G = (n + 1 - 2 * sum(cumulative_values) / cumulative_values[-1]) / n, where cumulative_values is the cummulative sum of sorted neoplastic areas, and n is the number of neoplastic nuclei.  Set the Gini coefficient to 0 if no neoplastic nuclei are found.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values must be rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the Gini coefficient is 0.42, you should save: [{\"slide_id\": \"sample1\", \"gini_coefficient\": 0.42}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "gini_coefficient": 0.15
+    },
+    "rationale": "The Gini coefficient robustly quantifies nuclear pleomorphism and heterogeneity, which are key features of malignancy.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "21",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each image in {path_to_dataset}, what is the average Euclidean distance in microns from each immune nucleus to its nearest neoplastic nucleus?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. All distances must be calculated as centroid-to-centroid Euclidean distance, converted to microns using 0.25 microns per pixel. Set the answer to 0 if no immune or no neoplastic nuclei are detected in the image. All classified immune and neoplastic nuclei should be included.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the average distance is 18.53, you should save: [{\"slide_id\": \"sample1\", \"average_distance_to_neoplastic_nuclei_um\": 18.53}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "average_distance_to_neoplastic_nuclei_um": 0.15
+    },
+    "rationale": "Mean immune-to-neoplastic nuclei distance reflects the immune nuclei infiltration pattern, distinguishing between `immune-inflamed` and `immune-excluded` neoplastics.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "22",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each image in {path_to_dataset}, what is the mean number of lymphocytes that are in direct physical contact with a neoplastic cell? Contact is defined as centroid-to-centroid distance < 20 μm.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Each lymphocyte may be counted multiple times if within 20 μm (centroid-to-centroid) of more than one neoplastic cell. Convert distances using 0.25 μm per pixel. If no neoplastic or immune (lymphocyte) cells are detected, set answer to 0.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the mean lymphocyte contacts per neoplastic is 0.87, you should save: [{\"slide_id\": \"sample1\", \"mean_lymphocyte_contacts_per_neoplastic\": 0.87}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "mean_lymphocyte_contacts_per_neoplastic": 0.15
+    },
+    "rationale": "Physical contact between lymphocytes and neoplastic cells is a surrogate marker for immune response and is associated with neoplastic rejection or control.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "23",
+    "data_type": "summary",
+    "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+    "question": "For each histology image at {path_to_dataset}, detect neoplastic and immune nuclei. For each neoplastic nucleus, count immune nuclei with centroid-to-centroid distance ≤100 µm. Sum these counts across all neoplastic nuclei in the image. How many images have a total count greater than 1,000?",
+    "rationale": "Quantifying immune nuclei in proximity to neoplastic nuclei informs on local immune evasion or engagement, which is clinically actionable.",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Each immune nucleus may be counted for multiple neoplastic nuclei if within 100 μm centroid-to-centroid distance. The images are scanned at 0.25 mpp. If no neoplastic or immune nuclei are detected, set the count to 0. Round the final output to the nearest integer.",
+    "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file must contain a **list of dictionaries** (JSON array). Use json.dump() with indent=4 for readability. The dictionary must include the integer key `num_images_total_count_gt_1000`. For example: [{\"num_images_total_count_gt_1000\": 12}].",
+    "id_column": null,
+    "columns_to_compare_and_tolerance": {
+      "num_images_total_count_gt_1000": 0.15
+    },
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "24",
+    "data_type": "multiple_wsi",
+    "dataset_relative_path": "monuseg/rgbs/",
+    "question": "For all the histology images at {path_to_dataset}, what is the ratio of total nuclei area to image area?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Sum the area of all detected nuclei contours (in pixel space), divide by the total image area in pixel space, and report the result as a ratio. If no nuclei are detected or the image area is zero, set the answer to 0.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values rounded to 3 decimal places. For example, if the image name is `sample1.tif` and the nuclei coverage ratio is 0.4567, you should save: [{\"slide_id\": \"sample1\", \"nuclei_coverage_ratio\": 0.457}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "nuclei_coverage_ratio": 0.15
+    },
+    "rationale": "Nuclear coverage ratio is essential for accurate molecular analyses, such as next-generation sequencing, and impacts diagnostic confidence.",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  },
+  {
+    "id": "25",
+    "data_type": "single_wsi",
+    "slide_relative_path": "monuseg/rgbs/TCGA-A6-6782-01A-01-BS1.tif",
+    "question": "For each histology image in {path_to_slide}, what is the median nuclear eccentricity for all detected nuclei in this image?",
+    "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. If no nuclei are detected, set the answer to 0. All images are at a base magnification of 0.25 microns per pixel.",
+    "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Float values rounded to 2 decimal places. For example, if the image name is `sample1.tif` and the median nuclear eccentricity is 0.62, you should save: [{\"slide_id\": \"sample1\", \"median_nuclear_eccentricity\": 0.62}] to the answer.json file with proper indentation.",
+    "id_column": "slide_id",
+    "columns_to_compare_and_tolerance": {
+      "median_nuclear_eccentricity": 0.15
+    },
+    "rationale": "Median nuclear eccentricity quantifies elongation of nuclei, which can differentiate tumor subtypes and indicate invasive potential",
+    "is_pathologist_verified": true,
+    "is_biomedical_scientist_verified": true
+  }
+]

@@ -1,0 +1,14 @@
+#@package __global__
+
+defaults:
+  - shared/experiment@_here_
+  - shared/base_codeagent@baseline
+  - _self_
+
+baseline:
+  type: "codeagent_with_rag"
+  tools_category: documentation
+  agent:
+    description: |
+      The code agent has access to many tools for whole slide image data processing and analysis. Additionally, it can use the following libraries
+      ${..libraries.datascience} and ${..libraries.builtin_modules} to write code if none of the avialable tools are suitable to answer the user's query.

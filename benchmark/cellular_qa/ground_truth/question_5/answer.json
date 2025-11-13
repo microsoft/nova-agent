@@ -1,0 +1,206 @@
+[
+  {
+    "slide_id": "TCGA-18-5592-01Z-00-DX1",
+    "mean_nuclear_area": 52.6
+  },
+  {
+    "slide_id": "TCGA-21-5784-01Z-00-DX1",
+    "mean_nuclear_area": 19.6
+  },
+  {
+    "slide_id": "TCGA-21-5786-01Z-00-DX1",
+    "mean_nuclear_area": 44.6
+  },
+  {
+    "slide_id": "TCGA-2Z-A9J9-01A-01-TS1",
+    "mean_nuclear_area": 21.9
+  },
+  {
+    "slide_id": "TCGA-38-6178-01Z-00-DX1",
+    "mean_nuclear_area": 30.7
+  },
+  {
+    "slide_id": "TCGA-44-2665-01B-06-BS6",
+    "mean_nuclear_area": 21.2
+  },
+  {
+    "slide_id": "TCGA-49-4488-01Z-00-DX1",
+    "mean_nuclear_area": 37.8
+  },
+  {
+    "slide_id": "TCGA-50-5931-01Z-00-DX1",
+    "mean_nuclear_area": 57.1
+  },
+  {
+    "slide_id": "TCGA-69-7764-01A-01-TS1",
+    "mean_nuclear_area": 29.5
+  },
+  {
+    "slide_id": "TCGA-A6-6782-01A-01-BS1",
+    "mean_nuclear_area": 21.1
+  },
+  {
+    "slide_id": "TCGA-A7-A13E-01Z-00-DX1",
+    "mean_nuclear_area": 31.8
+  },
+  {
+    "slide_id": "TCGA-A7-A13F-01Z-00-DX1",
+    "mean_nuclear_area": 29.0
+  },
+  {
+    "slide_id": "TCGA-AC-A2FO-01A-01-TS1",
+    "mean_nuclear_area": 30.5
+  },
+  {
+    "slide_id": "TCGA-AO-A0J2-01A-01-BSA",
+    "mean_nuclear_area": 39.9
+  },
+  {
+    "slide_id": "TCGA-AR-A1AK-01Z-00-DX1",
+    "mean_nuclear_area": 30.2
+  },
+  {
+    "slide_id": "TCGA-AR-A1AS-01Z-00-DX1",
+    "mean_nuclear_area": 41.0
+  },
+  {
+    "slide_id": "TCGA-AY-A8YK-01A-01-TS1",
+    "mean_nuclear_area": 45.2
+  },
+  {
+    "slide_id": "TCGA-B0-5698-01Z-00-DX1",
+    "mean_nuclear_area": 19.8
+  },
+  {
+    "slide_id": "TCGA-B0-5710-01Z-00-DX1",
+    "mean_nuclear_area": 18.6
+  },
+  {
+    "slide_id": "TCGA-B0-5711-01Z-00-DX1",
+    "mean_nuclear_area": 19.7
+  },
+  {
+    "slide_id": "TCGA-BC-A217-01Z-00-DX1",
+    "mean_nuclear_area": 29.7
+  },
+  {
+    "slide_id": "TCGA-CH-5767-01Z-00-DX1",
+    "mean_nuclear_area": 39.6
+  },
+  {
+    "slide_id": "TCGA-CU-A0YN-01A-02-BSB",
+    "mean_nuclear_area": 21.4
+  },
+  {
+    "slide_id": "TCGA-DK-A2I6-01A-01-TS1",
+    "mean_nuclear_area": 45.1
+  },
+  {
+    "slide_id": "TCGA-E2-A14V-01Z-00-DX1",
+    "mean_nuclear_area": 31.3
+  },
+  {
+    "slide_id": "TCGA-E2-A1B5-01Z-00-DX1",
+    "mean_nuclear_area": 22.2
+  },
+  {
+    "slide_id": "TCGA-EJ-A46H-01A-03-TSC",
+    "mean_nuclear_area": 20.4
+  },
+  {
+    "slide_id": "TCGA-F9-A8NY-01Z-00-DX1",
+    "mean_nuclear_area": 15.2
+  },
+  {
+    "slide_id": "TCGA-FG-A4MU-01B-01-TS1",
+    "mean_nuclear_area": 30.0
+  },
+  {
+    "slide_id": "TCGA-FG-A87N-01Z-00-DX1",
+    "mean_nuclear_area": 19.9
+  },
+  {
+    "slide_id": "TCGA-G2-A2EK-01A-02-TSB",
+    "mean_nuclear_area": 19.2
+  },
+  {
+    "slide_id": "TCGA-G9-6336-01Z-00-DX1",
+    "mean_nuclear_area": 44.9
+  },
+  {
+    "slide_id": "TCGA-G9-6348-01Z-00-DX1",
+    "mean_nuclear_area": 32.3
+  },
+  {
+    "slide_id": "TCGA-G9-6356-01Z-00-DX1",
+    "mean_nuclear_area": 25.8
+  },
+  {
+    "slide_id": "TCGA-G9-6362-01Z-00-DX1",
+    "mean_nuclear_area": 32.8
+  },
+  {
+    "slide_id": "TCGA-G9-6363-01Z-00-DX1",
+    "mean_nuclear_area": 39.4
+  },
+  {
+    "slide_id": "TCGA-GL-6846-01A-01-BS1",
+    "mean_nuclear_area": 34.3
+  },
+  {
+    "slide_id": "TCGA-HC-7209-01A-01-TS1",
+    "mean_nuclear_area": 27.9
+  },
+  {
+    "slide_id": "TCGA-HE-7128-01Z-00-DX1",
+    "mean_nuclear_area": 6.7
+  },
+  {
+    "slide_id": "TCGA-HE-7129-01Z-00-DX1",
+    "mean_nuclear_area": 7.8
+  },
+  {
+    "slide_id": "TCGA-HE-7130-01Z-00-DX1",
+    "mean_nuclear_area": 10.1
+  },
+  {
+    "slide_id": "TCGA-HT-8564-01Z-00-DX1",
+    "mean_nuclear_area": 23.4
+  },
+  {
+    "slide_id": "TCGA-IZ-8196-01A-01-BS1",
+    "mean_nuclear_area": 25.4
+  },
+  {
+    "slide_id": "TCGA-KB-A93J-01A-01-TS1",
+    "mean_nuclear_area": 16.5
+  },
+  {
+    "slide_id": "TCGA-MH-A561-01Z-00-DX1",
+    "mean_nuclear_area": 27.5
+  },
+  {
+    "slide_id": "TCGA-NH-A8F7-01A-01-TS1",
+    "mean_nuclear_area": 50.1
+  },
+  {
+    "slide_id": "TCGA-RD-A8N9-01A-01-TS1",
+    "mean_nuclear_area": 17.3
+  },
+  {
+    "slide_id": "TCGA-UZ-A9PJ-01Z-00-DX1",
+    "mean_nuclear_area": 21.8
+  },
+  {
+    "slide_id": "TCGA-UZ-A9PN-01Z-00-DX1",
+    "mean_nuclear_area": 14.9
+  },
+  {
+    "slide_id": "TCGA-XS-A8TJ-01Z-00-DX1",
+    "mean_nuclear_area": 15.9
+  },
+  {
+    "slide_id": "TCGA-ZF-A9R5-01A-01-TS1",
+    "mean_nuclear_area": 25.6
+  }
+]

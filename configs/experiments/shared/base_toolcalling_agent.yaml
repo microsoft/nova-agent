@@ -1,0 +1,34 @@
+defaults:
+  - libraries@libraries
+  - /llms/default_llm@llm.api_config
+  - _self_
+
+# llm args
+llm:
+  temperature: 0.0
+  max_retries: 20  # these are internal retries for the LLM calls
+
+# tool calling agent args
+agent:
+  planning_interval: null # don't use 0, give integer modulo by zero error
+  verbosity_level: 1
+  provide_run_summary: false
+  max_steps: 20
+  description: |
+    The simple tool calling agent calls tools defined by JSON schemas and applies simple text-based processing to their outputs to answer the user's queries.
+    It is not capable of writing code to write and execute tools, cannot use external libraries, and only relies on given tools.
+  special_instructions: |
+    Agent Guidelines
+    ## Core Objectives & Approach
+    - Your primary goal is to help the user fully achieve their objective.
+    - Always address the user's underlying question or need, not just the surface request. Ensure your answer is complete and fully covers the question and any related aspects.
+    - **Task Decomposition:** Break down complex tasks into smaller, manageable subtasks and address them sequentially. Execute each subtask one by one, using the appropriate tools.
+    ## Library & Tool Usage
+    - The machine you're running in has a gpu. Make sure to always use cuda:0 when a device is required to run a tool.
+    ## Output & Communication
+    - Display or share outputs—such as figures, files, or results—directly with the user whenever possible.
+    - Exactly follow user instructions on output format, file names, and other details.
+    - Communicate in a sincere, helpful, and user-focused way. Be clear, honest, and avoid unnecessary jargon.
+  prompt_templates_path: prompts/general_system_prompts/toolcalling_agent.yaml # structured JSON internal communication by default
+
+question_instructions: ""

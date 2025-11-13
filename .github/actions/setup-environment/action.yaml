@@ -1,0 +1,8 @@
+name: Setup environment
+description: "Install and set up the environment for the project."
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install mise-en-place and tools
+      uses: jdx/mise-action@v2

@@ -1,0 +1,206 @@
+[
+  {
+    "slide_id": "TCGA-18-5592-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.404
+  },
+  {
+    "slide_id": "TCGA-21-5784-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.125
+  },
+  {
+    "slide_id": "TCGA-21-5786-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.314
+  },
+  {
+    "slide_id": "TCGA-2Z-A9J9-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.202
+  },
+  {
+    "slide_id": "TCGA-38-6178-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.208
+  },
+  {
+    "slide_id": "TCGA-44-2665-01B-06-BS6",
+    "nuclei_coverage_ratio": 0.277
+  },
+  {
+    "slide_id": "TCGA-49-4488-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.337
+  },
+  {
+    "slide_id": "TCGA-50-5931-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.406
+  },
+  {
+    "slide_id": "TCGA-69-7764-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.208
+  },
+  {
+    "slide_id": "TCGA-A6-6782-01A-01-BS1",
+    "nuclei_coverage_ratio": 0.149
+  },
+  {
+    "slide_id": "TCGA-A7-A13E-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.16
+  },
+  {
+    "slide_id": "TCGA-A7-A13F-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.165
+  },
+  {
+    "slide_id": "TCGA-AC-A2FO-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.254
+  },
+  {
+    "slide_id": "TCGA-AO-A0J2-01A-01-BSA",
+    "nuclei_coverage_ratio": 0.227
+  },
+  {
+    "slide_id": "TCGA-AR-A1AK-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.209
+  },
+  {
+    "slide_id": "TCGA-AR-A1AS-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.266
+  },
+  {
+    "slide_id": "TCGA-AY-A8YK-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.263
+  },
+  {
+    "slide_id": "TCGA-B0-5698-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.113
+  },
+  {
+    "slide_id": "TCGA-B0-5710-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.107
+  },
+  {
+    "slide_id": "TCGA-B0-5711-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.108
+  },
+  {
+    "slide_id": "TCGA-BC-A217-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.359
+  },
+  {
+    "slide_id": "TCGA-CH-5767-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.186
+  },
+  {
+    "slide_id": "TCGA-CU-A0YN-01A-02-BSB",
+    "nuclei_coverage_ratio": 0.232
+  },
+  {
+    "slide_id": "TCGA-DK-A2I6-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.247
+  },
+  {
+    "slide_id": "TCGA-E2-A14V-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.189
+  },
+  {
+    "slide_id": "TCGA-E2-A1B5-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.116
+  },
+  {
+    "slide_id": "TCGA-EJ-A46H-01A-03-TSC",
+    "nuclei_coverage_ratio": 0.152
+  },
+  {
+    "slide_id": "TCGA-F9-A8NY-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.331
+  },
+  {
+    "slide_id": "TCGA-FG-A4MU-01B-01-TS1",
+    "nuclei_coverage_ratio": 0.223
+  },
+  {
+    "slide_id": "TCGA-FG-A87N-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.236
+  },
+  {
+    "slide_id": "TCGA-G2-A2EK-01A-02-TSB",
+    "nuclei_coverage_ratio": 0.123
+  },
+  {
+    "slide_id": "TCGA-G9-6336-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.322
+  },
+  {
+    "slide_id": "TCGA-G9-6348-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.202
+  },
+  {
+    "slide_id": "TCGA-G9-6356-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.182
+  },
+  {
+    "slide_id": "TCGA-G9-6362-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.248
+  },
+  {
+    "slide_id": "TCGA-G9-6363-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.223
+  },
+  {
+    "slide_id": "TCGA-GL-6846-01A-01-BS1",
+    "nuclei_coverage_ratio": 0.195
+  },
+  {
+    "slide_id": "TCGA-HC-7209-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.145
+  },
+  {
+    "slide_id": "TCGA-HE-7128-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.116
+  },
+  {
+    "slide_id": "TCGA-HE-7129-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.199
+  },
+  {
+    "slide_id": "TCGA-HE-7130-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.301
+  },
+  {
+    "slide_id": "TCGA-HT-8564-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.093
+  },
+  {
+    "slide_id": "TCGA-IZ-8196-01A-01-BS1",
+    "nuclei_coverage_ratio": 0.216
+  },
+  {
+    "slide_id": "TCGA-KB-A93J-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.368
+  },
+  {
+    "slide_id": "TCGA-MH-A561-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.317
+  },
+  {
+    "slide_id": "TCGA-NH-A8F7-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.291
+  },
+  {
+    "slide_id": "TCGA-RD-A8N9-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.322
+  },
+  {
+    "slide_id": "TCGA-UZ-A9PJ-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.376
+  },
+  {
+    "slide_id": "TCGA-UZ-A9PN-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.287
+  },
+  {
+    "slide_id": "TCGA-XS-A8TJ-01Z-00-DX1",
+    "nuclei_coverage_ratio": 0.334
+  },
+  {
+    "slide_id": "TCGA-ZF-A9R5-01A-01-TS1",
+    "nuclei_coverage_ratio": 0.195
+  }
+]

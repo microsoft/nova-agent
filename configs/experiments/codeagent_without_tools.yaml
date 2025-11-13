@@ -1,0 +1,9 @@
+#@package __global__
+
+defaults:
+  - shared/experiment@_here_
+  - shared/base_codeagent@baseline
+  - _self_
+
+baseline:
+  type: "codeagent_without_tools"

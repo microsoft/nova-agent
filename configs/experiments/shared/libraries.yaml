@@ -1,0 +1,43 @@
+builtin_modules:
+  - collections
+  - datetime
+  - itertools
+  - math
+  - queue
+  - random
+  - re
+  - stat
+  - statistics
+  - time
+  - unicodedata
+  - json
+  - pathlib
+
+datascience:
+  - pathlib.*
+  - scipy.*
+  - networkx.*
+  - scanpy.*
+  - skimage.*
+  - cv2.*
+  - matplotlib.*
+  - numpy.*
+  - pandas.*
+  - seaborn.*
+  - statsmodels.*
+  - sklearn.*
+  - PIL.*
+  - torch.*
+  - torchvision.*
+  - zarr.*
+  - h5py.*
+  - pickle.*
+  - openslide.*
+  - json.*
+  - lifelines.*
+  - sksurv.*
+  - geopandas.*
+  - spatialdata.*
+  - shapely.*
+  - tqdm.*
+  - shutil.*

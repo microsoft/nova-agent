@@ -1,0 +1,2358 @@
+[
+  {
+    "slide_id": "TCGA-A1-A0SK-DX1_xmin45749_ymin25055_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 8865.356
+  },
+  {
+    "slide_id": "TCGA-A1-A0SK-DX1_xmin45749_ymin25055_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 9140.015
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9613.037
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 13778.687
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8010.864
+  },
+  {
+    "slide_id": "TCGA-A2-A04P-DX1_xmin104246_ymin48517_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 10742.188
+  },
+  {
+    "slide_id": "TCGA-A2-A04P-DX1_xmin104246_ymin48517_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 9155.273
+  },
+  {
+    "slide_id": "TCGA-A2-A04Q-DX1_xmin20868_ymin17804_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12161.255
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7263.184
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 7705.688
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 8300.781
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 8071.899
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8056.641
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 6835.938
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 7858.276
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 7980.347
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 11199.951
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 15213.013
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 9552.002
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 21392.822
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 14221.191
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 12756.348
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_cell_density": 10681.152
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 18966.675
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 15899.658
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 12695.312
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 8712.769
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "average_cell_density": 8514.404
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 10910.034
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 7919.312
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "average_cell_density": 11596.68
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-5120_xmax-4096_ymax-6144",
+    "average_cell_density": 8941.65
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 9078.979
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 6851.196
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "average_cell_density": 11230.469
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "average_cell_density": 9674.072
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_cell_density": 8224.487
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 7568.359
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-3072_xmax-6144_ymax-4096",
+    "average_cell_density": 7202.148
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "average_cell_density": 8270.264
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "average_cell_density": 7308.96
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "average_cell_density": 12222.29
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "average_cell_density": 8270.264
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-3072_xmax-7168_ymax-4096",
+    "average_cell_density": 6774.902
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-4096_xmax-7168_ymax-5120",
+    "average_cell_density": 7354.736
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-5120_xmax-7168_ymax-6144",
+    "average_cell_density": 7034.302
+  },
+  {
+    "slide_id": "TCGA-A2-A0D2-DX1_xmin96887_ymin22299_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 8239.746
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 12557.983
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 19241.333
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 13275.146
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 13381.958
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 13687.134
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 14617.92
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 17135.62
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 13992.31
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9094.238
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 9307.861
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 15014.648
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 10437.012
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 9811.401
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 13763.428
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 17135.62
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 16220.093
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8102.417
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 10223.389
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 12512.207
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 9231.567
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11245.728
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 14099.121
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 10681.152
+  },
+  {
+    "slide_id": "TCGA-A2-A0T0-DX1_xmin72865_ymin59458_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8956.909
+  },
+  {
+    "slide_id": "TCGA-A2-A0YE-DX1_xmin59206_ymin33505_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 9826.66
+  },
+  {
+    "slide_id": "TCGA-A2-A0YE-DX1_xmin59206_ymin33505_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 16311.646
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11123.657
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 12008.667
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 10421.753
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 11947.632
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 11627.197
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 11169.434
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 11215.21
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 10650.635
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_cell_density": 10192.871
+  },
+  {
+    "slide_id": "TCGA-A2-A1G6-DX1_xmin57706_ymin69514_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12390.137
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 12222.29
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 8422.852
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8636.475
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12100.22
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8270.264
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 10498.047
+  },
+  {
+    "slide_id": "TCGA-A2-A3XU-DX1_xmin33329_ymin26157_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 5722.046
+  },
+  {
+    "slide_id": "TCGA-A2-A3XU-DX1_xmin33329_ymin26157_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 6378.174
+  },
+  {
+    "slide_id": "TCGA-A2-A3XX-DX1_xmin69942_ymin41560_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9384.155
+  },
+  {
+    "slide_id": "TCGA-A2-A3XX-DX1_xmin69942_ymin41560_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8346.558
+  },
+  {
+    "slide_id": "TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8666.992
+  },
+  {
+    "slide_id": "TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9613.037
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 9429.932
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10177.612
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8895.874
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 8438.11
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 8422.852
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8270.264
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 7507.324
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 8361.816
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 7675.171
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 7888.794
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_cell_density": 6195.068
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 8438.11
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_cell_density": 8285.522
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 7354.736
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 7232.666
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_cell_density": 11383.057
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-5120_xmax-1024_ymax-6144",
+    "average_cell_density": 8605.957
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 6973.267
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 7553.101
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 9109.497
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-5120_xmax-4096_ymax-6144",
+    "average_cell_density": 8132.935
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7522.583
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 7171.631
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 6851.196
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 6881.714
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 8224.487
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 6637.573
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 6622.314
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 6591.797
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 7873.535
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 6500.244
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 7278.442
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 9826.66
+  },
+  {
+    "slide_id": "TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 13656.616
+  },
+  {
+    "slide_id": "TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 13366.699
+  },
+  {
+    "slide_id": "TCGA-A7-A26I-DX1_xmin9689_ymin25668_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 8941.65
+  },
+  {
+    "slide_id": "TCGA-A7-A26I-DX1_xmin9689_ymin25668_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7354.736
+  },
+  {
+    "slide_id": "TCGA-A7-A4SD-DX1_xmin53807_ymin11871_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 16311.646
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 7293.701
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8407.593
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9170.532
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 7766.724
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8636.475
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8026.123
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 7965.088
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 13214.111
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8178.711
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 7675.171
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7766.724
+  },
+  {
+    "slide_id": "TCGA-A7-A6VY-DX1_xmin7308_ymin29955_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9597.778
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12451.172
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11932.373
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 10620.117
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11901.855
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9826.66
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 11627.197
+  },
+  {
+    "slide_id": "TCGA-AC-A2QJ-DX1_xmin36620_ymin8672_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 6652.832
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12680.054
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 15319.824
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 11978.149
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 12725.83
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 11535.645
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 10238.647
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 12115.479
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 9796.143
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_cell_density": 11001.587
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 13168.335
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12985.229
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 14694.214
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 17883.301
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10955.811
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 8605.957
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9170.532
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11291.504
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 16082.764
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 10009.766
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11306.763
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 14694.214
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 7720.947
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8102.417
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8178.711
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 8483.887
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8895.874
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 13427.734
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 7492.065
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10589.6
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8804.321
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9979.248
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9780.884
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 11123.657
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 10879.517
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 11184.692
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 10208.13
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 9796.143
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 12969.971
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 14343.262
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 9460.449
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_cell_density": 11535.645
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "average_cell_density": 11322.021
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "average_cell_density": 8255.005
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-2048_xmax-7168_ymax-3072",
+    "average_cell_density": 11215.21
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7476.807
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8605.957
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 8605.957
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 8255.005
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 9735.107
+  },
+  {
+    "slide_id": "TCGA-AO-A0J4-DX1_xmin17194_ymin10629_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 5630.493
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6439.209
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7583.618
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 6881.714
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 7232.666
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 7232.666
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 6698.608
+  },
+  {
+    "slide_id": "TCGA-AO-A1KR-DX1_xmin19591_ymin37667_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 9979.248
+  },
+  {
+    "slide_id": "TCGA-AO-A1KR-DX1_xmin19591_ymin37667_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8728.027
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12268.066
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11520.386
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 16601.562
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11032.104
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 8941.65
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 7049.561
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7812.5
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8071.899
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 19088.745
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 8346.558
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 15182.495
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 11718.75
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 10253.906
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 15563.965
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9323.12
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 8926.392
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 9384.155
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9078.979
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 13122.559
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 18875.122
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 12176.514
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 13214.111
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11383.057
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12924.194
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11581.421
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 13153.076
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 4440.308
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 11657.715
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8422.852
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 7247.925
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 11489.868
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 2670.288
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 7156.372
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 10665.894
+  },
+  {
+    "slide_id": "TCGA-AR-A1AY-DX1_xmin62652_ymin27061_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9185.791
+  },
+  {
+    "slide_id": "TCGA-AR-A1AY-DX1_xmin62652_ymin27061_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 10101.318
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8224.487
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 13656.616
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 11306.763
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 9689.331
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 8422.852
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 6225.586
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 16296.387
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 17013.55
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 4837.036
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 15197.754
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 17211.914
+  },
+  {
+    "slide_id": "TCGA-BH-A0AV-DX1_xmin77937_ymin57165_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 13214.111
+  },
+  {
+    "slide_id": "TCGA-BH-A0B3-DX1_xmin82526_ymin42184_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 18249.512
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_cell_density": 12985.229
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 3768.921
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 15686.035
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_cell_density": 10681.152
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 6576.538
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9338.379
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 8148.193
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 9185.791
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 11032.104
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 3005.981
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 8789.062
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 9628.296
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_cell_density": 9826.66
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 11672.974
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 12756.348
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 10955.811
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11062.622
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8468.628
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8438.11
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 8316.04
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 6835.938
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 3753.662
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 13397.217
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 12710.571
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7278.442
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9796.143
+  },
+  {
+    "slide_id": "TCGA-BH-A0E6-DX1_xmin54786_ymin20002_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 7034.302
+  },
+  {
+    "slide_id": "TCGA-BH-A0E6-DX1_xmin54786_ymin20002_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_cell_density": 6652.832
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9353.638
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 10467.529
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 6347.656
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 6164.551
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 3692.627
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 9155.273
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 5996.704
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8789.062
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 9414.673
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_cell_density": 9811.401
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 5142.212
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 10543.823
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-6144_xmax-4096_ymax-7168",
+    "average_cell_density": 8056.641
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 4425.049
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "average_cell_density": 17822.266
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-6144_xmax-5120_ymax-7168",
+    "average_cell_density": 21118.164
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "average_cell_density": 15670.776
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-5120_ymin-6144_xmax-6144_ymax-7168",
+    "average_cell_density": 5584.717
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 12969.971
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11489.868
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 9780.884
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 8834.839
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 4928.589
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 6362.915
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 2853.394
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8224.487
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8010.864
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 9170.532
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 8758.545
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 5157.471
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 8255.005
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 7186.89
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 11383.057
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 9109.497
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6820.679
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 6805.42
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 7308.96
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 12390.137
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 10910.034
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 7736.206
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8773.804
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10467.529
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9155.273
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9643.555
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 11184.692
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 9262.085
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_cell_density": 6561.279
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-0_ymin-5120_xmax-1024_ymax-6144",
+    "average_cell_density": 8041.382
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 15457.153
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_cell_density": 12023.926
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "average_cell_density": 3234.863
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 5508.423
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 5233.765
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 7522.583
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 8850.098
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6958.008
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9063.721
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 7507.324
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "average_cell_density": 9689.331
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-7168_ymin-0_xmax-8192_ymax-1024",
+    "average_cell_density": 8666.992
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 12985.229
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 10437.012
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 9262.085
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8621.216
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 9201.05
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 9109.497
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 9246.826
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 9094.238
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 10162.354
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 15365.601
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 8651.733
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_cell_density": 20462.036
+  },
+  {
+    "slide_id": "TCGA-D8-A147-DX1_xmin66394_ymin19298_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 7522.583
+  },
+  {
+    "slide_id": "TCGA-D8-A147-DX1_xmin66394_ymin19298_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 7507.324
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 16952.515
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 15396.118
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_cell_density": 12603.76
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 7705.688
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 9536.743
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 5096.436
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 7858.276
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "average_cell_density": 12390.137
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "average_cell_density": 3768.921
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-7168_ymin-5120_xmax-8192_ymax-6144",
+    "average_cell_density": 17379.761
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-8192_ymin-5120_xmax-9216_ymax-6144",
+    "average_cell_density": 6973.267
+  },
+  {
+    "slide_id": "TCGA-D8-A1XK-DX1_xmin26340_ymin50273_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 13336.182
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 9124.756
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 1632.69
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8773.804
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 13229.37
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 5264.282
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 10299.683
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 11642.456
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 8544.922
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 8026.123
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 8743.286
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 7934.57
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 3448.486
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 6744.385
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8255.005
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8804.321
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 3646.851
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 7186.89
+  },
+  {
+    "slide_id": "TCGA-D8-A27H-DX1_xmin8738_ymin8063_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 9628.296
+  },
+  {
+    "slide_id": "TCGA-D8-A27H-DX1_xmin8738_ymin8063_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 7598.877
+  },
+  {
+    "slide_id": "TCGA-D8-A27M-DX1_xmin54473_ymin16109_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 14648.438
+  },
+  {
+    "slide_id": "TCGA-D8-A27M-DX1_xmin54473_ymin16109_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 12176.514
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8468.628
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 8010.864
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 13015.747
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 17211.914
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 5325.317
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11169.434
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 10879.517
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 13198.853
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 9674.072
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 11245.728
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 19393.921
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 14266.968
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8087.158
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 12313.843
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8056.641
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11291.504
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 9918.213
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 11657.715
+  },
+  {
+    "slide_id": "TCGA-E2-A158-DX1_xmin56083_ymin25872_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 7843.018
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 7064.819
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 7919.312
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 9674.072
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 9399.414
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 8880.615
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 13778.687
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 11413.574
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 14053.345
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_cell_density": 10299.683
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 10818.481
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 3753.662
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 9506.226
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 5416.87
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 9277.344
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 5813.599
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7461.548
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 7919.312
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 8987.427
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 7492.065
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7629.395
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 4455.566
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 10711.67
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 10879.517
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 11535.645
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 12405.396
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_cell_density": 4150.391
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 5844.116
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 14266.968
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 12252.808
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 7400.513
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 7186.89
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 13046.265
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 7324.219
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 10635.376
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 8682.251
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 11154.175
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 6011.963
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 9536.743
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 12756.348
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "average_cell_density": 8850.098
+  },
+  {
+    "slide_id": "TCGA-E2-A1LS-DX1_xmin39247_ymin47756_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 9719.849
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 4776.001
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11322.021
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 6088.257
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9963.989
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 3204.346
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 3921.509
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 7888.794
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 6118.774
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 11352.539
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 11322.021
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_cell_density": 9216.309
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 18661.499
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 15106.201
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 8346.558
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "average_cell_density": 7919.312
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 11749.268
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 18005.371
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 14709.473
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 9994.507
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-7168_xmax-4096_ymax-8192",
+    "average_cell_density": 7980.347
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 8789.062
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 12664.795
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 8361.816
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "average_cell_density": 5935.669
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_cell_density": 6439.209
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 17822.266
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 12237.549
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10360.718
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 10986.328
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 8224.487
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 7385.254
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 9216.309
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7797.241
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11520.386
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7888.794
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 13748.169
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 17578.125
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 10833.74
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 14129.639
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 15472.412
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9994.507
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_cell_density": 7949.829
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 6866.455
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9002.686
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_cell_density": 4837.036
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 4913.33
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 9750.366
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 11749.268
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 7354.736
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_cell_density": 11703.491
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 8697.51
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 8895.874
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "average_cell_density": 11474.609
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7720.947
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "average_cell_density": 11718.75
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_cell_density": 13549.805
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "average_cell_density": 16296.387
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_cell_density": 6469.727
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_cell_density": 11764.526
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-3072_xmax-6144_ymax-4096",
+    "average_cell_density": 16937.256
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "average_cell_density": 11856.079
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "average_cell_density": 4180.908
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-2048_xmax-7168_ymax-3072",
+    "average_cell_density": 10498.047
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-3072_xmax-7168_ymax-4096",
+    "average_cell_density": 8987.427
+  },
+  {
+    "slide_id": "TCGA-GM-A2DD-DX1_xmin47260_ymin22408_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 13168.335
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 3814.697
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6805.42
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 13076.782
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 10360.718
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10299.683
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8239.746
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 6103.516
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 7278.442
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 5874.634
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 7064.819
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 9017.944
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 11260.986
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9902.954
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9506.226
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 8514.404
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 11535.645
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 3662.109
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 2182.007
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 2182.007
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_cell_density": 7995.605
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_cell_density": 8941.65
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_cell_density": 8819.58
+  },
+  {
+    "slide_id": "TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9429.932
+  },
+  {
+    "slide_id": "TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 14617.92
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 6546.021
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 7797.241
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 7843.018
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 10269.165
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 14755.249
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 13504.028
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 14739.99
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11169.434
+  },
+  {
+    "slide_id": "TCGA-LL-A73Y-DX1_xmin68117_ymin49445_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 10971.069
+  },
+  {
+    "slide_id": "TCGA-LL-A73Y-DX1_xmin68117_ymin49445_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 17669.678
+  },
+  {
+    "slide_id": "TCGA-LL-A740-DX1_xmin39436_ymin24080_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 10559.082
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_cell_density": 6652.832
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 5050.659
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 7293.701
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 9887.695
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 9674.072
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_cell_density": 7095.337
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_cell_density": 10635.376
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 10192.871
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 8438.11
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 6210.327
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 11672.974
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 8895.874
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9445.19
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6057.739
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 5599.976
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_cell_density": 3234.863
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 8895.874
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_cell_density": 8956.909
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_cell_density": 8987.427
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_cell_density": 3479.004
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_cell_density": 9918.213
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_cell_density": 10589.6
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_cell_density": 7339.478
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_cell_density": 10345.459
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_cell_density": 12634.277
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_cell_density": 5294.8
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6423.95
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 6774.902
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10757.446
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 6942.749
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_cell_density": 4470.825
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_cell_density": 8331.299
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_cell_density": 10803.223
+  },
+  {
+    "slide_id": "TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_cell_density": 9933.472
+  },
+  {
+    "slide_id": "TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_cell_density": 11047.363
+  }
+]

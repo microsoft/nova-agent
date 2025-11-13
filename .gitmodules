@@ -1,0 +1,3 @@
+[submodule "src/nova/toolkits/nuc_seg/hover_net"]
+	path = src/nova/toolkits/nuc_seg/hover_net
+	url = https://github.com/vqdang/hover_net

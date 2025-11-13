@@ -1,0 +1,410 @@
+[
+    {
+        "id": "1",
+        "data_type": "summary",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "Across all WSIs at {path_to_dataset}, what base magnification of WSI is the most frequent and what percentage of all WSIs have it?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide names should not include the file extension, and the base magnification should be a float value with exactly 1 decimal place. For example, save the following format: [{\"most_common_base_magnification\": 20.0, \"percentage_of_slide_with_most_common_base_magnification\": 75.0}] to the answer.json file with proper indentation. Round percentage_of_slide_with_most_common_base_magnification to one decimal place.",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "most_common_base_magnification": 1e-3,
+            "percentage_of_slide_with_most_common_base_magnification": 1e-3
+        },
+        "rationale": "Determining the base magnification is essential for accurate spatial calibration and scaling in downstream WSI analysis.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "2",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A7-A5ZV-01Z-00-DX1.21F2EA4A-4F31-43D6-A036-E20E326AF37E.svs",
+        "question": "How many downsampled pyramid levels does the WSI at {path_to_slide} have, excluding the base (highest resolution) level?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension, and the number of levels should be an integer. For example, save the following format: [{\"slide_id\": \"slide1\", \"num_levels\": 1}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "num_levels": 1e-3
+        },
+        "rationale": "Knowing the number of downsampled levels is crucial for selecting appropriate resolutions for analysis and optimizing computational resources.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "3",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "For all WSIs at {path_to_dataset}, if I want extract a crop of size 512x512 pixels at 10x magnification from each slide, what would be the pixel size of this crop at the highest available magnification in each WSI?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide names should not include the file extension, and both width and height **must** be integers. For example, save the following format: [{\"slide_id\": \"slide1\", \"width_px_at_level0\": 1024, \"height_px_at_level0\": 1024}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "width_px_at_level0": 1e-3,
+            "height_px_at_level0": 1e-3
+        },
+        "rationale": "Calculating the crop size at the highest resolution ensures accurate knowledge of scaling between target magnification and native image resolution for region extraction.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "4",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A0D0-01Z-00-DX1.4FF6B8E5-703B-400F-920A-104F56E0F874.svs",
+        "question": "What is the make of the scanner used to digitize the WSI at {path_to_slide}? Also, what is the scanner objective power reported in the metadata of the WSI?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. If provided, objective power should be a float. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"scanner_make\": \"leica\", \"objective_power\": 20.0}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "scanner_make": [
+                "aperio",
+                "aperio scanner",
+                "leica/aperio",
+                "leica"
+            ],
+            "objective_power": 1e-3
+        },
+        "rationale": "",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "5",
+        "data_type": "summary",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "Across WSIs at {path_to_dataset}, what proportion of slides have near-isotropic pixel spacing at the highest magnification level, defined as |mpp_x - mpp_y| / max(mpp_x, mpp_y) ≤ 0.01?",
+        "additional_instructions": "Your working directory is: {working_dir}. Compute per-slide mpp_x/mpp_y as defined, then aggregate. Report as a fraction in [0,1] rounded to three decimals.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. For example, save the following format: [{\"prop_isotropic_mpp\": 0.71}] to the answer.json file with proper indentation.",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "prop_isotropic_mpp": 1e-3
+        },
+        "rationale": "Proportion of near-isotropic spacing is a simple, verifiable summary of per-slide MPP characteristics.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "6",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "I want to extract a ROI of 1024x1024 at 20x magnification from all WSI at {path_to_dataset}. Select the best pyramid level for this task, and for each slide report: the selected level, microns-per-pixel at the level, and the ROI tile size at that level.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Slide names should not include the file extension. mpp is a float; tile_width and tile_height are integers; level is an integer. For example, save the following format: [{\"slide_id\": \"slide1\", \"mpp\": 0.500, \"tile_width\": 1024, \"tile_height\": 1024, \"level\": 1}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "mpp": 1e-3,
+            "tile_width": 1e-3,
+            "tile_height": 1e-3,
+            "level": 1e-3
+        },
+        "rationale": "Determining the appropriate MPP, pyramid level, and tile size ensures consistent spatial scaling when extracting high-resolution ROIs across multiple WSIs.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "7",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "For a dataset of WSIs at {path_to_dataset}, what is the file format and is each file compatible with OpenSlide? How many pyramid levels does each image contain? What is the scanner vendor (make)?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Slide names should not include the file extension. For compatibility status use exactly \"COMPATIBLE\" or \"NOT COMPATIBLE\". If not compatible, set num_levels and vendor to null. For example, save the following format: [{\"slide_id\": \"slide1\", \"file_format\": \"SVS\", \"openslide_compatibility_status\": \"COMPATIBLE\", \"num_levels\": 4, \"vendor\": \"aperio-scanner\"}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "file_format": [
+                ".svs",
+                "svs"
+            ],
+            "openslide_compatibility_status": [
+                "COMPATIBLE",
+                "NOT COMPATIBLE"
+            ],
+            "num_levels": 1e-3,
+            "vendor": [
+                "aperio",
+                "aperio scanner",
+                "aperio-scanner"
+            ]
+        },
+        "rationale": "Checking OpenSlide compatibility and retrieving metadata ensures the dataset can be programmatically processed and appropriately interpreted in downstream analyses.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "8",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-BH-A0AV-01Z-00-DX1.5A686DA4-A29D-4BA7-9BCA-B707F8755E83.svs",
+        "question": "For the WSI at {path_to_slide}, what is the largest downsample factor?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. The largest_downsample_factor field **must** be a float rounded to 1 decimal place. For example, save the following format: [{\"slide_id\": \"slide1\", \"largest_downsample_factor\": 16.0}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "largest_downsample_factor": 1e-3
+        },
+        "rationale": "Determining downsample factors enables mapping coordinates and measurements across pyramid levels for consistent multi-resolution analysis of WSIs.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "9",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-AR-A1AI-01Z-00-DX1.5EF2A589-4284-45CF-BF0C-169E3A85530C.svs",
+        "question": "Given a center coordinate (X = 1000, Y = 1500) at level 0 of the WSI at {path_to_slide}, what is the corresponding coordinate at 5x magnification (using integer division for scaling)? What level in the WSI did you end up using?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. All numeric fields **must** be integers. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"x_at_5x\": 200, \"y_at_5x\": 300, \"level_used\": 2}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "x_at_5x": 1e-3,
+            "y_at_5x": 1e-3,
+            "level_used": 1e-3
+        },
+        "rationale": "Converting coordinates from level 0 to a target magnification ensures correct mapping of regions across pyramid levels in WSIs.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "10",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-AQ-A54N-01Z-00-DX1.E53271E9-AFD2-4071-9B1E-CD05F63B8136.svs",
+        "question": "For a WSI at {path_to_slide}, is coordinate (5230, 1033) within the bounds at level 2? Answer in `yes` or `no`",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"is_patch_within_bounds\": \"yes\"}] to the answer.json file with proper indentation. Your answer per slide should be either `yes` or `no`.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "is_patch_within_bounds": [
+                "yes",
+                "no",
+                "y",
+                "n",
+                "true",
+                "false"
+            ]
+        },
+        "rationale": "Checking coordinate bounds prevents reading invalid image regions and ensures patch extraction validity.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "11",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A8-A08R-01Z-00-DX1.72FBD9A3-5EB9-4855-89EB-697883C2EA9B.svs",
+        "question": "How much memory, in megabytes (MB), is required to store a 1024x1024 pixel patch from the base resolution (level 0) of the WSI at {path_to_slide} as an 8-bit, 3-channel RGB array (without any compression or overhead)? Round your answer to two decimal places.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. memory_mb **must** be a float rounded to two decimals. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"memory_mb\": 8.00}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "memory_mb": 1e-3
+        },
+        "rationale": "Calculating memory footprint helps plan computational resources for large-scale histology patch extraction.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "12",
+        "data_type": "summary",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "Across {path_to_dataset}, what is the median downsample factor (relative to level 0) needed to obtain 10x magnification?",
+        "additional_instructions": "Your working directory is: {working_dir}. Compute per-slide factor for 10x, then report the dataset median rounded to two decimals.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. For example, save the following format: [{\"median_downsample_factor_10x\": 4.50}] to the answer.json file with proper indentation.",
+        "id_column": null,
+        "columns_to_compare_and_tolerance": {
+            "median_downsample_factor_10x": 1e-3
+        },
+        "rationale": "Determining downsample factors is necessary to correctly map between target magnifications and the native WSI resolution.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "13",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A7-A4SD-01Z-00-DX1.677152B3-17B2-42DB-AEEC-C9509ACCE831.svs",
+        "question": "A typical lymphocyte has a diameter of about 8-10 micrometers. Based on the microns-per-pixel (MPP) value at the highest resolution (level 0) of the WSI at {path_to_slide}, how many pixels wide would a 10 micrometers lymphocyte appear? Report your answer rounded to the nearest integer.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. lymphocyte_width_px **must** be an integer. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"lymphocyte_width_px\": 25}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "lymphocyte_width_px": 1e-3
+        },
+        "rationale": "This calculation translates biological size into image pixel units, critical for size-based morphological analysis.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "14",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-LL-A441-01Z-00-DX1.33B13078-BB14-4C42-88A6-7460AD2BCD00.svs",
+        "question": "Blurry regions are a common scanning artifact. The variance of a Laplacian filter is a classic method to quantify focus, where lower values suggest blur. For the WSI at {path_to_slide}, compute this value for a 256x256 pixel patch at level 0 centered at coordinate (X=1000, Y=2000). Convert the image to RGB and use ksize of 3 when calculating the Laplacian variance. Return this value rounded to 3 decimal places.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. laplacian_variance **must** be a float rounded to one decimal place. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"laplacian_variance\": 172.3}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "laplacian_variance": 1e-3
+        },
+        "rationale": "Laplacian variance quantifies sharpness, aiding in quality control and automated blur detection.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "15",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_to_use/WSI_flat/",
+        "question": "For each WSI at {path_to_dataset}, calculate the downsample factor of level 3 relative to the highest resolution level (level 0). If level 3 does not exist, use the highest resolution level (level 0). Round to two decimal places.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Slide names should not include the file extension. downsample_factor **must** be a float with exactly 2 decimal places. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"downsample_factor\": 8.50}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "downsample_factor": 1e-3
+        },
+        "rationale": "Level-specific downsample factors are necessary for selecting resolution levels that balance detail and efficiency.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "16",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-AO-A0J4-01Z-00-DX1.2EFC978E-8DF5-4254-9598-C0910B17C5C8.svs",
+        "question": "In the histology image at {path_to_slide}, how many distinct tissue regions are present?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Slide names should not include the file extension. num_regions **must** be an integer. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"num_regions\": 12}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "num_regions": 0.1
+        },
+        "rationale": "Counting tissue regions supports downstream tasks like region-specific feature extraction or classification.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "17",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A0YE-01Z-00-DX1.8A2E3094-5755-42BC-969D-7F0A2ECA0F39.svs",
+        "question": "For WSI at {path_to_slide}, what is the total area covered by all tissue regions in mm^2, rounded to 2 decimal places?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. Slide names should not include the file extension. total_area_mm2 **must** be a float rounded to two decimals. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"total_area_mm2\": 123.45}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "total_area_mm2": 0.1
+        },
+        "rationale": "Determining the total tissue area in mm² across WSIs is essential for tissue coverage analysis, quality control, and downstream feature normalization.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "18",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A7-A4SE-01Z-00-DX1.16BC8401-E40E-4A1A-9BD9-12735C9AE3F6.svs",
+        "question": "For WSI at {path_to_slide}, calculate the number of non-overlapping 512x512 patches that can be extracted at level 0 from the tissue regions.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide names should not include the file extension, and the number of patches should be an integer. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"number_of_patches\": 500}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "number_of_patches": 0.1
+        },
+        "rationale": "Estimating the number of extractable patches informs computational load, patch-based modeling feasibility, and tissue coverage assessment.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "19",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A7-A0DA-01Z-00-DX2.90C93176-C3C6-41B3-B34B-B16F1A1779E6.svs",
+        "question": "For the digital histology image at {path_to_slide}, what is the area in millimeters squared of the largest tissue region detected? Round your answer to two decimal places.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. largest_region_area_mm2 **must** be a float rounded to two decimals. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"largest_region_area_mm2\": 45.67}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "largest_region_area_mm2": 0.1
+        },
+        "rationale": "Finding the largest connected tissue area provides insights into specimen completeness and tissue distribution patterns.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "20",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-E2-A150-01Z-00-DX1.55643D23-83E6-4058-8EA5-18AAA8547839.svs",
+        "question": "For the digital histology image at {path_to_slide}, what is the area in millimeters squared of the smallest tissue region detected? Round your answer to two decimal places.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. smallest_region_area_mm2 **must** be a float rounded to two decimals. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"smallest_region_area_mm2\": 0.23}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "smallest_region_area_mm2": 0.1
+        },
+        "rationale": "Identifying the smallest tissue fragment helps detect scanning debris, artifacts, and possible tissue loss.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "21",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-EW-A1P8-01Z-00-DX1.E9852193-8CDD-49EF-B49B-DA6931198F0D.svs",
+        "question": "For the histology slide at {path_to_slide}, what percentage of the tissue pixels are more strongly stained with hematoxylin than with eosin?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Work with the lowest resolution level of the whole slide image. You can set non-tissue regions to white before computing stains. Apply 0-1 scaling to each stain matrix before computing percentages. Consider a pixel hematoxylin-dominant if its hematoxylin value exceeds the eosin value by more than 0.02. Report the hematoxylin-dominant tissue percentage to two decimal places.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. The slide name should not include the file extension. hematoxylin_percent **must** be a float rounded to two decimal places. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"hematoxylin_percent\": 44.23}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "hematoxylin_percent": 0.1
+        },
+        "rationale": "This calculation quantifies the proportion of tissue dominated by nuclear staining (hematoxylin) versus cytoplasmic/protein staining (eosin), which can indicate cellularity and tissue composition.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "22",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-C8-A12V-01Z-00-DX1.84B29360-B87B-4648-A697-B6610336C2BB.svs",
+        "question": "For the WSI at {path_to_slide}, how many non-overlapping patches of size 512x512 at 20x magnification do not contain any artifacts (penmarks, scanning, slide, etc.) and only contain tissue?",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. tissue_patches_count **must** be an integer, and slide_id should not include the file extension. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"tissue_patches_count\": 245}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "tissue_patches_count": 0.1
+        },
+        "rationale": "Counting the number of tissue-containing patches supports patch-based model training, quality control, and dataset balancing when artifacts are not separately segmented.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "23",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A1-A0SK-01Z-00-DX1.A44D70FA-4D96-43F4-9DD7-A61535786297.svs",
+        "question": "For WSI at {path_to_slide}, determine how many non-overlapping patches of size 512x512 pixels can be extracted at 20x magnification that contain at least 90% tissue coverage.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. valid_patch_count **must** be an integer, and slide_id should not include the file extension. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"valid_patch_count\": 150}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "valid_patch_count": 0.1
+        },
+        "rationale": "Measuring high-magnification tissue-rich patches is important for dataset planning, training data generation, and ensuring adequate tissue representation.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "24",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A0CM-01Z-00-DX1.AC4901DE-4B6D-4185-BB9F-156033839828.svs",
+        "question": "For histology WSI at {path_to_slide}, compute the convexity of each tissue region, then return the average convexity per slide. Work in pixel space!",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Perform analysis at the highest resolution (level 0).",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. avg_convexity **must** be a float rounded to three decimal places, and slide_id should not include the file extension. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"avg_convexity\": 0.912}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "avg_convexity": 0.1
+        },
+        "rationale": "Convexity quantifies tissue shape irregularities, which may correlate with tumor invasiveness or tissue fragmentation.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "25",
+        "data_type": "single_wsi",
+        "slide_relative_path": "tcga_brca_to_use/WSI_flat/TCGA-A2-A3XT-01Z-00-DX1.336D6C78-576A-481B-8C83-F3A0FC4B182C.svs",
+        "question": "For histology WSI at {path_to_slide}, compute the perimeter length (in mm) of each independent tissue region and then average the perimeters for the slide. Report your answer in millimeters.",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results.",
+        "output_instructions": "You **must** save your outputs as a JSON file in your working directory. Create a file named `answer.json` containing your results as a **list of dictionaries** (JSON array). Use 4-space indentation for readability. avg_perimeter_mm **must** be a float rounded to one decimal place, and slide_id should not include the file extension. For example, save the following format: [{\"slide_id\": \"slide_id1\", \"avg_perimeter_mm\": 1234.5}] to the answer.json file with proper indentation.",
+        "id_column": "slide_id",
+        "columns_to_compare_and_tolerance": {
+            "avg_perimeter_mm": 0.1
+        },
+        "rationale": "Perimeter length provides insights into tissue boundary complexity and fragmentation, potentially reflecting sample preparation quality.",
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    }
+]

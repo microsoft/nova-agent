@@ -1,0 +1,8 @@
+{
+    "0" : ["Background", [255, 255, 255]],
+    "1" : ["Neoplastic", [255,   0,   0]],
+    "2" : ["Inflammatory", [0, 128, 255]],
+    "3" : ["Connective", [0, 255, 0]],
+    "4" : ["Necrosis", [0, 255, 255]],
+    "5" : ["Non-Neoplastic Epithelial", [128, 0, 255]]
+}

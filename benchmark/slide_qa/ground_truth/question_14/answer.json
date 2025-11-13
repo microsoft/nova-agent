@@ -1,0 +1,18 @@
+[
+  {
+    "num_heads": 1,
+    "avg_auc": 0.589
+  },
+  {
+    "num_heads": 2,
+    "avg_auc": 0.576
+  },
+  {
+    "num_heads": 4,
+    "avg_auc": 0.587
+  },
+  {
+    "num_heads": 6,
+    "avg_auc": 0.544
+  }
+]

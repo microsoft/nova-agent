@@ -1,0 +1,27 @@
+[
+  {
+    "fold_idx": 0,
+    "label": "MYC_amplification",
+    "auroc": 0.806
+  },
+  {
+    "fold_idx": 1,
+    "label": "MYC_amplification",
+    "auroc": 0.75
+  },
+  {
+    "fold_idx": 2,
+    "label": "MYC_amplification",
+    "auroc": 0.537
+  },
+  {
+    "fold_idx": 3,
+    "label": "MYC_amplification",
+    "auroc": 0.722
+  },
+  {
+    "fold_idx": 4,
+    "label": "MYC_amplification",
+    "auroc": 0.444
+  }
+]

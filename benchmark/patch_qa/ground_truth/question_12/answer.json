@@ -1,0 +1,22 @@
+[
+  {
+    "fold_idx": 0,
+    "test_spearman_correlation": -0.278
+  },
+  {
+    "fold_idx": 1,
+    "test_spearman_correlation": -0.168
+  },
+  {
+    "fold_idx": 2,
+    "test_spearman_correlation": 0.092
+  },
+  {
+    "fold_idx": 3,
+    "test_spearman_correlation": 0.172
+  },
+  {
+    "fold_idx": 4,
+    "test_spearman_correlation": -0.217
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "feature": "mean_density",
+    "hazard_ratio": 0.0,
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "p_value": 0.021
+  },
+  {
+    "feature": "mean_neoplastic_area",
+    "hazard_ratio": 1.016,
+    "ci_lower": 0.992,
+    "ci_upper": 1.041,
+    "p_value": 0.193
+  },
+  {
+    "feature": "mean_neoplastic_perimeter",
+    "hazard_ratio": 0.824,
+    "ci_lower": 0.626,
+    "ci_upper": 1.083,
+    "p_value": 0.165
+  },
+  {
+    "feature": "mean_neoplastic_circularity",
+    "hazard_ratio": 945.572,
+    "ci_lower": 0.0,
+    "ci_upper": 5916020521.18,
+    "p_value": 0.391
+  }
+]

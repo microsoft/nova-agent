@@ -1,0 +1,460 @@
+[
+    {
+        "id": "1",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_ut_brca_zeroshot/TCGA-A7-A26G",
+        "question": "I have multiple regions of interest for a breast cancer patient at {path_to_dataset}. Does this patient show metaplastic breast cancer?",
+        "rationale": "Metaplastic breast cancer is a rare subtype of breast cancer with distinct histological features. Identifying it requires careful review across multiple regions of interest",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Provide a single answer for the entire set of images",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. The patient_id is the folder name containing the images. The answer must be either `yes` or `no`. For example, if `path_to_dataset` is /path/to/patient_id123/ and your answer is `not metaplastic`, then patient_id is patient_id123 and you should save: [{\"patient_id\": \"patient_id123\", \"shows_metaplastic\": \"no\"}]",
+        "id_column": "patient_id",
+        "columns_to_compare_and_tolerance": {
+            "shows_metaplastic": ["yes", "no", "y", "n", "true", "false", "1", "0", "positive", "negative"]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "2",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_ut_brca_zeroshot/TCGA-AR-A2LR",
+        "question": "I have three images of a tumor from a breast cancer patient at {path_to_dataset}. When considering all the images, does the patient have invasive lobular, invasive ductal, or metaplastic breast cancer?",
+        "rationale": "Differentiating between invasive ductal carcinoma, invasive lobular carcinoma, and metaplastic carcinoma is critical as they differ in morphology, prognosis, and management",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Provide a single answer for the entire set of images",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. The patient_id is the folder name containing the images. The diagnosis must be `invasive lobular`, `invasive ductal`, or `metaplastic`. For example, if `path_to_dataset` is /path/to/patient_id123/ and your answer is `invasive lobular`, then patient_id is patient_id123 and you should save: [{\"patient_id\": \"patient_id123\", \"diagnosis\": \"invasive lobular\"}]",
+        "id_column": "patient_id",
+        "columns_to_compare_and_tolerance": {
+            "diagnosis": [
+                "invasive lobular",
+                "invasive ductal",
+                "metaplastic",
+                "IDC",
+                "ILC",
+                "lobular",
+                "ductal",
+                "idc",
+                "ilc",
+                "metaplastic breast cancer",
+                "metaplastic carcinoma",
+                "metaplastic carcinoma of the breast"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "3",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_ut_brca_zeroshot/TCGA-HN-A2NL",
+        "question": "We have found a set of images for a breast cancer patient at {path_to_dataset}. Would you classify the set of images as invasive ductal or lobular breast cancer?",
+        "rationale": "Invasive ductal carcinoma and invasive lobular carcinoma are the two most common histological types of breast cancer, and distinguishing between them is important for diagnosis and treatment",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Provide a single answer for the entire set of images",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. The patient_id is the folder name containing the images. The diagnosis must be `invasive lobular` or `invasive ductal`. For example, if `path_to_dataset` is /path/to/patient_id123/ and your answer is `invasive ductal`, then patient_id is patient_id123 and you should save: [{\"patient_id\": \"patient_id123\", \"diagnosis\": \"invasive ductal\"}]",
+        "id_column": "patient_id",
+        "columns_to_compare_and_tolerance": {
+            "diagnosis": [
+                "invasive lobular",
+                "invasive ductal",
+                "IDC",
+                "ILC",
+                "lobular",
+                "ductal",
+                "idc",
+                "ilc"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "4",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_ut_brca_zeroshot/TCGA-AR-A2LH",
+        "question": "For the breast cancer patient at {path_to_dataset}, is the set of images more likely to show invasive lobular or ductal breast cancer?",
+        "rationale": "Correctly identifying whether the cancer is lobular or ductal is fundamental for clinical decision-making and pathological classification",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Provide a single answer for the entire set of images",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. The patient_id is the folder name containing the images. The diagnosis must be `invasive lobular` or `invasive ductal`. For example, if `path_to_dataset` is /path/to/patient_id123/ and your answer is `invasive ductal`, then patient_id is patient_id123 and you should save: [{\"patient_id\": \"patient_id123\", \"diagnosis\": \"invasive ductal\"}]",
+        "id_column": "patient_id",
+        "columns_to_compare_and_tolerance": {
+            "diagnosis": [
+                "invasive lobular",
+                "invasive ductal",
+                "IDC",
+                "ILC",
+                "lobular",
+                "ductal",
+                "idc",
+                "ilc"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "5",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_ut_brca_zeroshot/TCGA-E2-A1LI",
+        "question": "Classify the set of images at {path_to_dataset} for breast cancer patient into invasive or non-invasive breast cancer.",
+        "rationale": "Distinguishing invasive from non-invasive breast cancer is a key diagnostic step that guides prognosis and therapeutic strategy",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Provide a single answer for the entire set of images",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. The patient_id is the folder name containing the images. The diagnosis must be `invasive` or `non invasive`. For example, if `path_to_dataset` is /path/to/patient_id123/ and your answer is `non invasive`, then patient_id is patient_id123 and you should save: [{\"patient_id\": \"patient_id123\", \"diagnosis\": \"non invasive\"}]",
+        "id_column": "patient_id",
+        "columns_to_compare_and_tolerance": {
+            "diagnosis": [
+                "invasive",
+                "non-invasive",
+                "non invasive",
+                "invasive carcinoma",
+                "non invasive carcinoma",
+                "invasive cancer",
+                "non-invasive cancer"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "6",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_ut_brca_zeroshot/TCGA-E2-A1LS",
+        "question": "Does the set of images at {path_to_dataset} for a breast cancer patient show invasive ductal carcinoma?",
+        "rationale": "Invasive ductal carcinoma is a distinct subtype of breast cancer with unique histological patterns that influence prognosis and treatment",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Provide a single answer for the entire set of images",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. The patient_id is the folder name containing the images. The diagnosis must be either `yes` or `no`. For example, if `path_to_dataset` is /path/to/patient123/ and your answer is `no`, then patient_id is patient123 and you should save: [{\"patient_id\": \"patient123\", \"diagnosis\": \"no\"}]",
+        "id_column": "patient_id",
+        "columns_to_compare_and_tolerance": {
+            "diagnosis": [
+                "yes",
+                "no",
+                "y",
+                "n",
+                "true",
+                "false",
+                "1",
+                "0",
+                "positive",
+                "negative"
+            ]
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "7",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/TTN_mutation/splits.csv",
+        "question": "Design and execute a 5-fold cross-validation study to predict TTN mutation status using the breast cancer histology image dataset at {path_to_dataset}, where each patient is represented by a folder containing that patient's images. Report the AUROC for TTN mutation prediction for each fold",
+        "rationale": "TTN mutation status is biologically relevant, and AUROC across folds provides a robust estimate of predictive performance",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The premade data splits are located at {path_to_metadata}, which is a CSV file with columns: `patient_id`, `image_relative_path`, `TTN_mutation`, and `fold_idx` (for idx=0 to 4). To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. Each patient may have multiple associated images. Use the `uni_v1` histology encoder to encode each image and then average embeddings per patient. You should then use these patient level embeddings for training and testing purposes. For each fold, train a logistic regression model with L2 regularization strength = 1.0 and seed 42, then evaluate on the test patients. Report AUROC with exactly 3 decimal places",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `fold_idx` (integer 0-4) and `test_AUROC` (float with exactly 3 decimal places). For example: [{\"fold_idx\": 0, \"test_AUROC\": 0.812}, {\"fold_idx\": 1, \"test_AUROC\": 0.745}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "test_AUROC": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "8",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/TP53_mutation/splits.csv",
+        "question": "I want to find out if a support vector machine (SVM) outperform logistic regression for TP53 mutation prediction using mean-pooled patient-level image embeddings in the dataset at {path_to_dataset}, where each patient is represented by a folder containing that patient's images. Report balanced accuracy for each model across 5 folds",
+        "rationale": "Comparing classifiers such as SVM and logistic regression for mutation prediction helps benchmark embedding utility",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The premade data splits are at {path_to_metadata}, with columns: `patient_id`, `image_relative_path`, `TP53_mutation`, and `fold_idx` (0-4). To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. For each image, use the `conch_v1` encoder to obtain embeddings and mean-pool per patient. For each fold, train an SVM (C=1.0, rbf kernel, probability false, seed 42) and a logistic regression model (L2=1.0, seed 42). Report balanced accuracy (3 decimal places) on the test set for both models in each fold. You should only use patient level embeddings for training and testing purposes",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must include `fold_idx` (0-4), `model` (`svm` or `logistic_regression`), and `test_balanced_accuracy` (float with 3 decimals). For example: [{\"fold_idx\": 0, \"model\": \"svm\", \"test_balanced_accuracy\": 0.732}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "test_balanced_accuracy": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "9",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/MYC_amplification/splits.csv",
+        "question": "Train a linear probe on mean-pooled patient-level image embeddings to predict MYC amplification in the dataset at {path_to_dataset}, where each patient is represented by a folder containing that patient's images. What is the test AUROC for each fold?",
+        "rationale": "Joint prediction of multiple genomic alterations such as TP53 mutation and MYC amplification provides insight into multi-label learning performance in histology",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Premade data splits are at {path_to_metadata}, with columns: `patient_id`, `image_relative_path`, `MYC_amplification`, and `fold_idx` (0-4), telling you if each patient is used for train or test for the fold. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. For each image, use the `conch_v1` encoder and mean-pool embeddings per patient. Train a logistic regression (L2=1.0, seed 42) on each fold. Report AUROC for the label and compute the mean AUROC per fold (3 decimal places). You should only train and test models using patient embeddings",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must have `fold_idx` (0-4), `label` (`MYC_amplification`), and `auroc` (float with 3 decimals). For example: [{\"fold_idx\": 0, \"label\": \"MYC_amplification\", \"auroc\": 0.801}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "auroc": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "10",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/PTEN_deletion/splits.csv",
+        "question": "Design and execute a 5-fold cross-validation study to predict PTEN deletion status using the breast cancer histology dataset at {path_to_dataset}, where each patient is represented by a folder containing that patient's images. Report recall for PTEN deletion prediction for each fold",
+        "rationale": "PTEN deletion is clinically relevant, and recall is important to evaluate sensitivity in detecting true deletions",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Premade data splits are located at {path_to_metadata}, with columns: `patient_id`, `image_relative_path`, `PTEN_deletion`, and `fold_idx` (0-4). To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. Each patient may have multiple associated images. For each image, use the `conch_v15` encoder and average embeddings per patient. Train logistic regression (L2=0.5, seed 42) on each fold and report recall (3 decimals) on the test set. You should only train and test models using patient embeddings",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `fold_idx` (0-4) and `test_recall` (float with 3 decimals). For example: [{\"fold_idx\": 0, \"test_recall\": 0.456}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "test_recall": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "11",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/ERBB2_amplification/splits.csv",
+        "question": "Given a dataset of multiple patients with breast cancer histology images located at {path_to_dataset} (each patient is represented by a folder containing that patient's images), design and execute a 5-fold cross-validation study to predict ERBB2 amplification status using the provided images, reporting the recall for ERBB2 amplification prediction",
+        "rationale": "ERBB2 (HER2) amplification is a clinically important biomarker in breast cancer and fold-level recall quantifies sensitivity across splits",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The premade data splits are located at {path_to_metadata}, a CSV with columns: `patient_id`, `image_relative_path`, `ERBB2_amplification`, and `fold_idx` for idx=0-4. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. Each patient may have multiple images. For each image, use the `conch_v15` histology encoder to obtain an embedding and average all image embeddings per patient to create a patient-level embedding. For each fold, train logistic regression with L2=0.5 and seed=42 on training patients and evaluate on test patients. Compute recall for the test set with exactly 3 decimals. Set all other random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42 and do not use any test data during training. You should only use patient level embeddings for training and testing models",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must have `fold_idx` (0-4) and `test_recall` (a float rounded to exactly 3 decimal places). For example: [{\"fold_idx\": 0, \"test_recall\": 0.732}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "test_recall": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "12",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/fraction_genome_altered/splits.csv",
+        "question": "Given a dataset of multiple patients with breast cancer histology images located at {path_to_dataset} (each patient is represented by a folder containing that patient's images), design and execute a 5-fold cross-validation study to predict fraction genome altered using the provided images, reporting the Spearman correlation between predicted and actual fraction genome altered",
+        "rationale": "Fraction genome altered is a quantitative genomic burden metric; fold-level Spearman correlation evaluates monotonic agreement between predicted and true values",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The premade data splits are located at {path_to_metadata}, a CSV with columns: `patient_id`, `image_relative_path`, `fraction_genome_altered`, and `fold_idx` for idx=0-4. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. Each patient may have multiple images. For each image, use the `conch_v15` histology encoder to obtain an embedding and average embeddings per patient to create a patient-level embedding. For each fold, train a linear regression model (seed=42) on training patients and evaluate on test patients. Compute Spearman correlation on the test set with exactly 3 decimals. Set all other random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42 and do not use any test data during training",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must have `fold_idx` (0-4) and `test_spearman_correlation` (a float rounded to exactly 3 decimal places). For example: [{\"fold_idx\": 0, \"test_spearman_correlation\": 0.524}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "test_spearman_correlation": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "13",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "tcga_brca_ut_brca_mini/",
+        "path_to_metadata": "tcga_ut_brca/metadata/recurred/splits.csv",
+        "question": "Given a dataset of multiple patients with breast cancer histology images located at {path_to_dataset} (each patient is represented by a folder containing that patient's images), design and execute a 5-fold cross-validation study to predict recurrence using the provided images, reporting the AUPRC for recurrence prediction",
+        "rationale": "Accurate recurrence prediction supports risk stratification and follow-up planning; fold-level AUPRC emphasizes sensitivity to true recurrence cases",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. The premade data splits are located at {path_to_metadata}, a CSV with columns: `patient_id`, `image_relative_path`, `recurred`, and `fold_idx` for idx=0-4. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_relative_path` column. Each patient may have multiple images. For each image, use the `uni_v1` histology encoder to obtain an embedding and average embeddings per patient to create a patient-level embedding. For each fold, train logistic regression with L2=0.5 and seed=42 on training patients and evaluate on test patients. Compute AUPRC for the test set with exactly 3 decimals. Set all other random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42 and do not use any test data during training",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must have `fold_idx` (0-4) and `test_auprc` (a float rounded to exactly 3 decimal places). For example: [{\"fold_idx\": 0, \"test_auprc\": 0.694}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "test_auprc": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "14",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/OS_days/metadata.csv",
+        "question": "In my dataset of breast cancer patients at {path_to_dataset}, what is the Spearman correlation (and its p-value) between overall survival days and the ratio of neoplastic to lymphocytic cell counts? Report one value for the entire dataset",
+        "rationale": "Associations between immune-tumor composition and survival can reveal prognostic morphologic biomarkers",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Patient-level survival data, path to images, and overall survival days are provided at {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each patient, regardless of the number of images, compute the neoplastic-to-lymphocytic cell count ratio per image and then average these ratios across images to obtain a patient-level ratio. Using all patients, compute the Spearman correlation and its p-value between the patient-level ratio and overall survival days. Set all random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Your json must have `dataset`, `spearman_correlation` (a float rounded to exactly 3 decimal places), and `p_value` (a float rounded to exactly 3 decimal places). For example: [{\"dataset\": \"panoptils_idc\", \"spearman_correlation\": 0.318, \"p_value\": 0.041}]",
+        "id_column": "dataset",
+        "columns_to_compare_and_tolerance": {
+            "spearman_correlation": 0.15,
+            "p_value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "15",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/fraction_genome_altered/metadata.csv",
+        "question": "How strongly is fraction genome altered associated with the average nuclear area of neoplastic cells (in microns squared) in the dataset at {path_to_dataset}? Calculate and report the Pearson correlation and p-value",
+        "rationale": "Fraction genome altered captures genomic instability, while neoplastic nuclear area is a morphometric feature linked to tumor aggressiveness; Pearson correlation quantifies linear association between them",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Patient-level fraction genome altered values and image paths are provided in a CSV at {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, calculate the mean nuclear area of neoplastic cells in micrometers squared. Average nuclear areas across all images per patient to obtain a patient-level estimate. Compute the Pearson correlation coefficient and its p-value between the patient-level nuclear area and fraction genome altered. Set all random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42. All images are scanned at 0.25 microns per pixel",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `dataset`, `pearson_correlation` (float with 3 decimals), and `p_value` (float with 3 decimals). For example: [{\"dataset\": \"panoptils_idc\", \"pearson_correlation\": 0.472, \"p_value\": 0.032}]",
+        "id_column": "dataset",
+        "columns_to_compare_and_tolerance": {
+            "pearson_correlation": 0.15,
+            "p_value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "16",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/OS_days/metadata.csv",
+        "question": "Does average nuclear neoplastic eccentricity per patient in their histology images relate linearly to survival days for each patient in the dataset at {path_to_dataset}? Calculate and report the Pearson correlation coefficient and its p-value",
+        "rationale": "Nuclear eccentricity reflects nuclear shape irregularity, which is a marker of tumor aggressiveness, and survival days provide clinical outcome context; Pearson correlation quantifies linear association between the two",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Patient-level survival data and image paths are provided in a CSV at {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, calculate the mean nuclear neoplastic eccentricity across all nuclei. For each patient, average these eccentricities across all images for this patient. Compute the Pearson correlation coefficient and its p-value between average nuclear neoplastic eccentricity and survival days. Consider all patients regardless of censorship status. Set random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `dataset`, `pearson_correlation` (float with 3 decimals), and `p_value` (float with 3 decimals). For example: [{\"dataset\": \"panoptils_idc\", \"pearson_correlation\": -0.271, \"p_value\": 0.048}]",
+        "id_column": "dataset",
+        "columns_to_compare_and_tolerance": {
+            "pearson_correlation": 0.15,
+            "p_value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "17",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/PTEN_deletion/splits.csv",
+        "question": "Can recurrence status be predicted using a linear SVM, based on a feature vector of five patient-level handcrafted nuclei features in the dataset at {path_to_dataset}? Use premade splits to conduct 5-fold cross-validation and report classification accuracy and AUROC for each fold",
+        "rationale": "Recurrence is clinically important; handcrafted nuclear features capture biologically interpretable morphology, and SVMs are effective for small high-dimensional datasets",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Metadata with recurrence status, image paths, and premade splits are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. Compute per-image: (1) proportion of lymphocytic nuclei (number of lymphocytes / total number of cells), (2) mean nuclear area of neoplastic nuclei (µm²), (3) mean nuclear eccentricity of neoplastic nuclei, (4) proportion of normal epithelium nuclei (number of normal epithelium cells / total number of cells), and (5) mean nuclear area of stromal nuclei (µm²) (stromal nuclei are all connective and immune nuclei). Average each feature across all images per patient to get patient level features, then standardize (zero mean, unit variance) (using train data per fold only). For each fold, train a linear SVC (C=1, RBF kernel, probability false seed 42) and evaluate accuracy and AUROC on the test set. Fix all random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `fold_idx` (0-4), `accuracy` and `auroc` (floats with 3 decimals). Example: [{\"fold_idx\": 0, \"accuracy\": 0.734, \"auroc\": 0.702}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "accuracy": 0.15,
+            "auroc": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "18",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/PTEN_deletion/metadata.csv",
+        "question": "Do patients with PTEN deletion differ in their average neoplastic nuclear eccentricity compared to those without deletion in the dataset at {path_to_dataset}? Compare distributions and test for significance",
+        "rationale": "PTEN deletion is associated with aggressive tumor biology; nuclear eccentricity is a proxy for nuclear pleomorphism, so differences between groups may reflect pathologic relevance",
+        "additional_instructions": "Your working directory is: {working_dir}, where you can store intermediate results. Metadata with PTEN deletion status and patient image paths are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, calculate mean neoplastic nuclear eccentricity, then average across images per patient. Divide patients into deletion vs. no deletion groups based on their PTEN status. Use the Mann-Whitney U test to compare distributions and report group means, group sizes, and p-value (two-sided). Fix random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `pten_status` (deletion/no_deletion), `mean_eccentricity` (3 decimals), `n_patients` (int), and `p_value` (3 decimals). For example: [{\"pten_status\": \"deletion\", \"mean_eccentricity\": 0.623, \"n_patients\": 15, \"p_value\": 0.042}, {\"pten_status\": \"no_deletion\", \"mean_eccentricity\": 0.581, \"n_patients\": 28, \"p_value\": 0.042}]",
+        "id_column": "pten_status",
+        "columns_to_compare_and_tolerance": {
+            "mean_eccentricity": 0.15,
+            "p_value": 0.15,
+            "n_patients" : 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "19",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/recurred/metadata.csv",
+        "question": "Is there a difference in spatial clustering between lymphocytic and neoplastic nuclei among patients with and without recurrence in the dataset at {path_to_dataset}? Use mean nearest-neighbor distance from lymphocytic to neoplastic nuclei as the metric",
+        "rationale": "Immune-tumor spatial interactions influence tumor progression; recurrence status may be associated with differences in lymphocyte-neoplastic spatial proximity",
+        "additional_instructions": "Your working directory is: {working_dir}, where you can store intermediate results. Metadata with recurrence status and patient image paths are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, compute mean nearest-neighbor distance from lymphocytic to neoplastic nuclei in microns (0.25 mpp). Average distances across images per patient. Divide patients into recurrent vs. non-recurrent based on the provided metadata. Compare distributions with Mann-Whitney U test and report group means, group sizes, and p-value (two-sided). Fix random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `recurrence_status` (recurrent/non_recurrent), `mean_clustering_score` (3 decimals), `n_patients` (int), and `p_value` (3 decimals). For example: [{\"recurrence_status\": \"recurrent\", \"mean_clustering_score\": 45.231, \"n_patients\": 12, \"p_value\": 0.087}, {\"recurrence_status\": \"non_recurrent\", \"mean_clustering_score\": 42.176, \"n_patients\": 31, \"p_value\": 0.087}]",
+        "id_column": "recurrence_status",
+        "columns_to_compare_and_tolerance": {
+            "mean_clustering_score": 0.15,
+            "n_patients": 0.15,
+            "p_value": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "20",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/TP53_mutation/splits.csv",
+        "question": "How accurately can TP53 mutation status be predicted using a random forest and patient-level neoplastic nuclear morphometric features in the dataset at {path_to_dataset}? Report AUROC for each fold of cross-validation",
+        "rationale": "TP53 is a key tumor suppressor frequently mutated in breast cancer; nuclear morphometrics are morphological biomarkers, and random forests can capture nonlinear feature interactions",
+        "additional_instructions": "Your working directory is: {working_dir}, where you can store intermediate results. Metadata with TP53 mutation status and patient image paths are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, compute mean neoplastic nuclear area, eccentricity, perimeter, circularity, and solidity. Average features across all images per patient to create a 5-D vector. Standardize features to 0 mean and unit variance per fold (using train data per fold only). Train a random forest (100 trees, gini criterion, seed 42) with stratified 5-fold CV, evaluate AUROC on each test fold. Fix seeds for NumPy, PyTorch, scikit-learn, torch, random, etc to 42 for reproducibility",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `fold_idx` (0-4) and `auroc` (float with 3 decimals). Example: [{\"fold_idx\": 0, \"auroc\": 0.711}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "auroc": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "21",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/OS_days/metadata.csv",
+        "question": "What are the absolute values of the coefficients for mean neoplastic nuclear area, mean neoplastic nuclear eccentricity, mean neoplastic nuclear perimeter, mean neoplastic nuclear circularity, and mean neoplastic nuclear solidity in a linear regression model predicting survival days in the dataset at {path_to_dataset}?",
+        "rationale": "Examining coefficients from linear regression allows interpretation of how strongly nuclear morphometrics contribute to survival prediction",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Metadata with survival days and patient image paths are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, compute mean neoplastic nuclear area, eccentricity, perimeter, circularity, and solidity. Average each feature across all images per patient. Standardize features (zero mean, unit variance), then fit a linear regression to predict survival days. Report absolute values of coefficients. Fix random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `feature` (string) and `coefficient` (absolute value, float with 3 decimals). For example: [{\"feature\": \"mean_neoplastic_nuclear_area\", \"coefficient\": 123.456}, {\"feature\": \"mean_neoplastic_nuclear_eccentricity\", \"coefficient\": 78.901}]",
+        "id_column": "feature",
+        "columns_to_compare_and_tolerance": {
+            "coefficient": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "22",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/MYC_amplification/metadata.csv",
+        "question": "Is there a significant difference in the average nuclear pleomorphism score of neoplastic nuclei between patients with and without MYC amplification in the dataset at {path_to_dataset}?",
+        "rationale": "MYC amplification drives genomic instability and pleomorphism; comparing pleomorphism scores between amplification groups tests biological relevance",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Metadata with MYC amplification values and patient image paths are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, compute mean pleomorphism score of neoplastic nuclei as the standard deviation of nuclear area (µm²). Average across all images per patient. Split patients into high vs. low MYC amplification groups based on the metadata provided. Compare pleomorphism scores using Mann-Whitney U test and report group means, group sizes, and p-value (two-sided). Fix random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42. All images are scanned at 0.25 mpp",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `group` (high_MYC_amplification/low_MYC_amplification), `mean_pleomorphism` (3 decimals), `n_patients` (int), and `p_value` (3 decimals). For example: [{\"group\": \"high_MYC_amplification\", \"mean_pleomorphism\": 12.345, \"n_patients\": 20, \"p_value\": 0.032}, {\"group\": \"low_MYC_amplification\", \"mean_pleomorphism\": 9.876, \"n_patients\": 25, \"p_value\": 0.032}]",
+        "id_column": "group",
+        "columns_to_compare_and_tolerance": {
+            "mean_pleomorphism": 0.15,
+            "p_value": 0.15,
+            "n_patients": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "23",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/TP53_mutation/splits.csv",
+        "question": "What is the accuracy of classifying TP53 mutation status using a logistic regression with the mean nuclear circularity of neoplastic nuclei per patient in the dataset at {path_to_dataset}?",
+        "rationale": "TP53 is a key tumor suppressor gene; neoplastic nuclear circularity may capture microenvironmental morphology associated with mutation status",
+        "additional_instructions": "Your working directory is: {working_dir}, which you can use to save intermediate outputs and results. Metadata with TP53 mutation status, premade 5 fold splits, and patient image paths and patient ids are in {path_to_metadata}. To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, compute mean nuclear circularity of neoplastic nuclei, then average across all images per patient. Standardize the feature per fold (using train set only per fold). Use logistic regression (C=0.5, seed 42) with stratified 5-fold CV to classify TP53 status. Report test balanced accuracy and AUROC per fold. Fix random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42. Images are scanned at 0.25 mpp",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `fold_idx` (0-4), `balanced_accuracy` (3 decimals), and `auroc` (3 decimals). Example: [{\"fold_idx\": 0, \"balanced_accuracy\": 0.673, \"auroc\": 0.701}]",
+        "id_column": "fold_idx",
+        "columns_to_compare_and_tolerance": {
+            "balanced_accuracy": 0.15,
+            "auroc": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "24",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/OS_days/metadata.csv",
+        "question": "Do the patient-level mean lymphocytic nuclei density, together with mean neoplastic nuclear area, mean neoplastic nuclear perimeter, and mean neoplastic nuclear circularity, predict survival time using a Cox proportional hazards model in the dataset at {path_to_dataset}?",
+        "rationale": "Immune infiltration patterns captured by lymphocyte density variability, along with neoplastic nuclear morphometry, may have prognostic value in survival modeling",
+        "additional_instructions": "Your working directory is: {working_dir}, where you can save intermediate results. Metadata with survival time, event status, and patient image paths are in {path_to_metadata} (column `OS` indicates event status, 1 being event observed). To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, calculate lymphocytic nuclei density (lymphocytic count / image area in µm², 0.25 mpp). For each patient, compute mean density across images per patient. Also compute mean neoplastic nuclear area, mean neoplastic nuclear perimeter, and mean neoplastic nuclear circularity across images per patient. Fit a Cox proportional hazards model using these four features as covariates. Report hazard ratio, 95% CI, and p-value for each feature. Fix random seeds (NumPy, PyTorch, scikit-learn) to 42",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `feature` (string), `hazard_ratio` (3 decimals), `ci_lower` (3 decimals), `ci_upper` (3 decimals), and `p_value` (3 decimals). For example: [{\"feature\": \"mean_density\", \"hazard_ratio\": 1.234, \"ci_lower\": 0.987, \"ci_upper\": 1.543, \"p_value\": 0.065}]",
+        "id_column": "feature",
+        "columns_to_compare_and_tolerance": {
+            "hazard_ratio": 0.15,
+            "p_value": 0.15,
+            "ci_lower": 0.15,
+            "ci_upper": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    },
+    {
+        "id": "25",
+        "data_type": "multiple_wsi",
+        "dataset_relative_path": "panoptils_idc_mini/rgbs/",
+        "path_to_metadata": "panoptils_idc_mini/metadata/OS_days/splits.csv",
+        "question": "Does adding the average nuclear solidity of neoplastic cells improve Cox proportional hazards model prediction of survival compared to using only clinical covariates (age, stage) in the dataset at {path_to_dataset}? Report the mean C-index IPCW across 5 folds for both conditions",
+        "rationale": "Nuclear solidity is a proxy for morphological abnormality; testing its added prognostic value over clinical variables assesses integration of imaging biomarkers with standard clinical data",
+        "additional_instructions": "Your working directory is: {working_dir}. Metadata with survival time, event status, clinical covariates (age, stage), patient image paths, and premade splits are in {path_to_metadata} (column `OS` indicates event status, 1 being event observed). To determine the absolute path to the actual image files, join {path_to_dataset} (the dataset root) with the value from the `image_name` column. For each image, compute mean neoplastic nuclear solidity, then average per patient. Using 5-fold CV, train two Cox models: (1) clinical covariates only, (2) clinical covariates and neoplastic nuclear solidity. Compute test-set C-index IPCW per fold, then report mean across folds. Fix random seeds (NumPy, PyTorch, scikit-learn, torch, random, etc.) to 42. A higher risk score indicated by higher values!",
+        "output_instructions": "You **must** save your results to a JSON file named `answer.json` in your working directory. The file should contain a list of dictionaries with your outputs. Use json.dump() with indent=4 for readability. Each object must contain `model` (clinical_only/clinical_plus_solidity) and `mean_c_index` (3 decimals). For example: [{\"model\": \"clinical_only\", \"mean_c_index\": 0.652}, {\"model\": \"clinical_plus_solidity\", \"mean_c_index\": 0.687}]",
+        "id_column": "model",
+        "columns_to_compare_and_tolerance": {
+            "mean_c_index": 0.15
+        },
+        "is_pathologist_verified": true,
+        "is_biomedical_scientist_verified": true
+    }
+]

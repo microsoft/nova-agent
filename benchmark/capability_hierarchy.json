@@ -1,0 +1,52 @@
+{
+    "WSI data ingestion": [
+        "WSI metadata retrieval",
+        "WSI reading",
+        "WSI patching"
+    ],
+    "basic data ingestion": [
+        "image reading",
+        "CSV reading",
+        "embeddings reading"
+    ],
+    "modelling": [
+        "supervised learning",
+        "multiple-instance learning",
+        "clustering",
+        "survival modelling",
+        "few-shot learning"
+    ],
+    "statistics": [
+        "model evaluation",
+        "cross-validation",
+        "statistical analysis",
+        "summary statistics",
+        "attention-based patch retrieval"
+    ],
+    "pretrained model use": [
+        "patch embedding",
+        "WSI embedding",
+        "zero-shot WSI interpretation",
+        "zero-shot multi-patch interpretation",
+        "nuclei segmentation",
+        "cell semantic segmentation",
+        "tissue segmentation",
+        "artefact segmentation",
+        "nuclei detection",
+        "nuclei cell type classification"
+    ],
+    "spatial analysis": [
+        "distance computation",
+        "morphometry",
+        "spatial calibration"
+    ],
+    "image processing": [
+        "texture analysis",
+        "image filtering",
+        "stain estimation"
+    ],
+    "general": [
+        "scalar calculation",
+        "problem solving"
+    ]
+}

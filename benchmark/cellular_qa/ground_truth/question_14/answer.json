@@ -1,0 +1,2358 @@
+[
+  {
+    "slide_id": "TCGA-A1-A0SK-DX1_xmin45749_ymin25055_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 12.23
+  },
+  {
+    "slide_id": "TCGA-A1-A0SK-DX1_xmin45749_ymin25055_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 13.34
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.47
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.58
+  },
+  {
+    "slide_id": "TCGA-A2-A04P-DX1_xmin104246_ymin48517_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.43
+  },
+  {
+    "slide_id": "TCGA-A2-A04P-DX1_xmin104246_ymin48517_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 15.01
+  },
+  {
+    "slide_id": "TCGA-A2-A04Q-DX1_xmin20868_ymin17804_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.43
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.21
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.83
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.23
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.88
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.5
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 12.26
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 11.29
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 10.9
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 12.78
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "average_distance_to_neighbors_um": 12.06
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 12.69
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 12.38
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "average_distance_to_neighbors_um": 16.07
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-5120_xmax-4096_ymax-6144",
+    "average_distance_to_neighbors_um": 12.32
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 12.22
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 12.25
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "average_distance_to_neighbors_um": 11.79
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "average_distance_to_neighbors_um": 11.8
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 12.65
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-3072_xmax-6144_ymax-4096",
+    "average_distance_to_neighbors_um": 12.14
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "average_distance_to_neighbors_um": 11.66
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "average_distance_to_neighbors_um": 11.7
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "average_distance_to_neighbors_um": 13.41
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-3072_xmax-7168_ymax-4096",
+    "average_distance_to_neighbors_um": 12.39
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-4096_xmax-7168_ymax-5120",
+    "average_distance_to_neighbors_um": 11.92
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-5120_xmax-7168_ymax-6144",
+    "average_distance_to_neighbors_um": 12.1
+  },
+  {
+    "slide_id": "TCGA-A2-A0D2-DX1_xmin96887_ymin22299_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.06
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 8.6
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.23
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 9.72
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.31
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.78
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 10.56
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 9.03
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 10.05
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 10.11
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 8.51
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 8.96
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 10.25
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.02
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 10.27
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 10.75
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.38
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 9.99
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.39
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 10.76
+  },
+  {
+    "slide_id": "TCGA-A2-A0T0-DX1_xmin72865_ymin59458_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.43
+  },
+  {
+    "slide_id": "TCGA-A2-A0YE-DX1_xmin59206_ymin33505_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.3
+  },
+  {
+    "slide_id": "TCGA-A2-A0YE-DX1_xmin59206_ymin33505_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.16
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.5
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.45
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.22
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 10.04
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 9.88
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 9.76
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 10.46
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 10.74
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_distance_to_neighbors_um": 10.13
+  },
+  {
+    "slide_id": "TCGA-A2-A1G6-DX1_xmin57706_ymin69514_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 13.28
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.76
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 19.41
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 11.19
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 10.11
+  },
+  {
+    "slide_id": "TCGA-A2-A3XU-DX1_xmin33329_ymin26157_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 13.15
+  },
+  {
+    "slide_id": "TCGA-A2-A3XU-DX1_xmin33329_ymin26157_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.65
+  },
+  {
+    "slide_id": "TCGA-A2-A3XX-DX1_xmin69942_ymin41560_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.3
+  },
+  {
+    "slide_id": "TCGA-A2-A3XX-DX1_xmin69942_ymin41560_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.41
+  },
+  {
+    "slide_id": "TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.48
+  },
+  {
+    "slide_id": "TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.79
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 11.04
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 14.26
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.46
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.53
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.79
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.7
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 11.44
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 11.14
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 10.84
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 11.47
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_distance_to_neighbors_um": 10.53
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 11.5
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_distance_to_neighbors_um": 11.11
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.65
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 11.33
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_distance_to_neighbors_um": 11.87
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-5120_xmax-1024_ymax-6144",
+    "average_distance_to_neighbors_um": 13.98
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.96
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 11.67
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 11.14
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-5120_xmax-4096_ymax-6144",
+    "average_distance_to_neighbors_um": 11.71
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.73
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.68
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 12.19
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 12.23
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.07
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 12.28
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 12.22
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 12.04
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 13.39
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 14.31
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 14.52
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 11.52
+  },
+  {
+    "slide_id": "TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 13.14
+  },
+  {
+    "slide_id": "TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 13.31
+  },
+  {
+    "slide_id": "TCGA-A7-A26I-DX1_xmin9689_ymin25668_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 12.3
+  },
+  {
+    "slide_id": "TCGA-A7-A26I-DX1_xmin9689_ymin25668_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.87
+  },
+  {
+    "slide_id": "TCGA-A7-A4SD-DX1_xmin53807_ymin11871_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.26
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 12.34
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 12.08
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 12.25
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.77
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.95
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.9
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.0
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 14.45
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.17
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.6
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.39
+  },
+  {
+    "slide_id": "TCGA-A7-A6VY-DX1_xmin7308_ymin29955_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.13
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 9.7
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.72
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.64
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.57
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 10.32
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.5
+  },
+  {
+    "slide_id": "TCGA-AC-A2QJ-DX1_xmin36620_ymin8672_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 12.34
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.35
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.14
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.29
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.18
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.94
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 9.06
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 7.91
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 8.68
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_distance_to_neighbors_um": 9.37
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 8.75
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.35
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.68
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.06
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 11.43
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.33
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.62
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 14.49
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.24
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.52
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 12.51
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.97
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.9
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 11.34
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 8.89
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.95
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 10.92
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.88
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.03
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 9.95
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 9.45
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.48
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 9.1
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 9.58
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 9.48
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 9.75
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 9.69
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 9.0
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 10.82
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 9.76
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_distance_to_neighbors_um": 9.64
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "average_distance_to_neighbors_um": 9.18
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "average_distance_to_neighbors_um": 10.28
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-2048_xmax-7168_ymax-3072",
+    "average_distance_to_neighbors_um": 9.5
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.56
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.58
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 10.61
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AO-A0J4-DX1_xmin17194_ymin10629_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 13.33
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 12.28
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 12.03
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 13.17
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 12.18
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 12.85
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 12.09
+  },
+  {
+    "slide_id": "TCGA-AO-A1KR-DX1_xmin19591_ymin37667_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.67
+  },
+  {
+    "slide_id": "TCGA-AO-A1KR-DX1_xmin19591_ymin37667_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.21
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 15.71
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.25
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.02
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.37
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.9
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.55
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.0
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 11.5
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 8.19
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 10.83
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 23.18
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 11.29
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 12.89
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 13.4
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 14.37
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.5
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 11.84
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.36
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 14.27
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.08
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 12.31
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.82
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 8.85
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 9.73
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.48
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 9.82
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 9.81
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 9.57
+  },
+  {
+    "slide_id": "TCGA-AR-A1AY-DX1_xmin62652_ymin27061_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 9.03
+  },
+  {
+    "slide_id": "TCGA-AR-A1AY-DX1_xmin62652_ymin27061_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.53
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 8.97
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 35.41
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 13.6
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 9.93
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 12.0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 15.87
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.19
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0AV-DX1_xmin77937_ymin57165_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 12.18
+  },
+  {
+    "slide_id": "TCGA-BH-A0B3-DX1_xmin82526_ymin42184_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.23
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.68
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.4
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 9.53
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 9.5
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 9.76
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 9.72
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 10.03
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 11.64
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 17.66
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 11.07
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.92
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.84
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.33
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.63
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 11.6
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.39
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.45
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.23
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 13.49
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 12.1
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.29
+  },
+  {
+    "slide_id": "TCGA-BH-A0E6-DX1_xmin54786_ymin20002_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 14.47
+  },
+  {
+    "slide_id": "TCGA-BH-A0E6-DX1_xmin54786_ymin20002_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_distance_to_neighbors_um": 13.02
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 15.12
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 14.92
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 17.54
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 15.62
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 12.04
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 10.69
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 10.43
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.54
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 10.2
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_distance_to_neighbors_um": 10.8
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 11.3
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 3.8
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-6144_xmax-4096_ymax-7168",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 11.48
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-6144_xmax-5120_ymax-7168",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-5120_ymin-6144_xmax-6144_ymax-7168",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.79
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.32
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.3
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 10.96
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.27
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 10.78
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 11.71
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.4
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.72
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 11.79
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 11.4
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 12.11
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 12.42
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 10.43
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 11.74
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 11.92
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.82
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.11
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 11.06
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 13.9
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 12.68
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 12.3
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.25
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.77
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 10.23
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.14
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 10.77
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 11.52
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-0_ymin-5120_xmax-1024_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 14.52
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.7
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.43
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 13.98
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 10.15
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 10.64
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "average_distance_to_neighbors_um": 9.91
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-7168_ymin-0_xmax-8192_ymax-1024",
+    "average_distance_to_neighbors_um": 10.19
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 10.47
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 15.21
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.23
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 9.94
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.97
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 10.59
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 10.79
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 11.25
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 10.87
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A147-DX1_xmin66394_ymin19298_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 13.62
+  },
+  {
+    "slide_id": "TCGA-D8-A147-DX1_xmin66394_ymin19298_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.09
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 15.24
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 18.99
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 14.72
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 13.5
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "average_distance_to_neighbors_um": 12.81
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "average_distance_to_neighbors_um": 13.6
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-7168_ymin-5120_xmax-8192_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-8192_ymin-5120_xmax-9216_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1XK-DX1_xmin26340_ymin50273_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 10.32
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.75
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 9.45
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 12.46
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.17
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 9.44
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 9.39
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 10.2
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 10.07
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 10.99
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 11.8
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.15
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.04
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 9.93
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.1
+  },
+  {
+    "slide_id": "TCGA-D8-A27H-DX1_xmin8738_ymin8063_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 15.61
+  },
+  {
+    "slide_id": "TCGA-D8-A27H-DX1_xmin8738_ymin8063_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 15.64
+  },
+  {
+    "slide_id": "TCGA-D8-A27M-DX1_xmin54473_ymin16109_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-D8-A27M-DX1_xmin54473_ymin16109_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 15.1
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 14.4
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 16.84
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 12.63
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.66
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.44
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.98
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 12.87
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 12.79
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 13.77
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.41
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 11.59
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.34
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 9.22
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.76
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 21.01
+  },
+  {
+    "slide_id": "TCGA-E2-A158-DX1_xmin56083_ymin25872_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.43
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.23
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.34
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.84
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 12.29
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.92
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.25
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 15.41
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 12.31
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_distance_to_neighbors_um": 11.71
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 10.34
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.41
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 13.83
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.06
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.77
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.82
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.56
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 11.95
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 11.6
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 9.5
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 9.44
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 9.38
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 9.3
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 8.95
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 12.22
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "average_distance_to_neighbors_um": 8.38
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.74
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.28
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 11.43
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.17
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 13.0
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 12.51
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 11.96
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.5
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 11.89
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 11.86
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 11.49
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 13.79
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "average_distance_to_neighbors_um": 27.33
+  },
+  {
+    "slide_id": "TCGA-E2-A1LS-DX1_xmin39247_ymin47756_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 13.46
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 13.14
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.7
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 11.96
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 12.98
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 11.62
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.93
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 10.49
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 16.97
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 10.46
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "average_distance_to_neighbors_um": 10.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 13.51
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 10.92
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-7168_xmax-4096_ymax-8192",
+    "average_distance_to_neighbors_um": 10.23
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 11.45
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 10.09
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "average_distance_to_neighbors_um": 11.36
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 13.8
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.96
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.84
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 9.36
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.69
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 14.78
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.53
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.45
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 9.89
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.29
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 10.68
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 13.24
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.34
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 10.66
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.73
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_distance_to_neighbors_um": 12.28
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 13.44
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.52
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 12.33
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 11.64
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 10.79
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 11.25
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 12.02
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "average_distance_to_neighbors_um": 14.52
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "average_distance_to_neighbors_um": 13.15
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "average_distance_to_neighbors_um": 15.81
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "average_distance_to_neighbors_um": 12.89
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-3072_xmax-6144_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "average_distance_to_neighbors_um": 8.96
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-2048_xmax-7168_ymax-3072",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-3072_xmax-7168_ymax-4096",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DD-DX1_xmin47260_ymin22408_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 19.95
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 12.9
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 14.05
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 17.68
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 17.2
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.45
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 13.67
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.58
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.77
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 9.7
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 9.89
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 9.96
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 9.85
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 10.48
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 9.6
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 11.18
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 10.69
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 13.01
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 12.2
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "average_distance_to_neighbors_um": 11.18
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "average_distance_to_neighbors_um": 11.34
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "average_distance_to_neighbors_um": 10.75
+  },
+  {
+    "slide_id": "TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.53
+  },
+  {
+    "slide_id": "TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.31
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.38
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.77
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 10.41
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.59
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 16.22
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.71
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 15.13
+  },
+  {
+    "slide_id": "TCGA-LL-A73Y-DX1_xmin68117_ymin49445_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 10.66
+  },
+  {
+    "slide_id": "TCGA-LL-A73Y-DX1_xmin68117_ymin49445_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 12.26
+  },
+  {
+    "slide_id": "TCGA-LL-A740-DX1_xmin39436_ymin24080_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 0.0
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "average_distance_to_neighbors_um": 11.37
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 17.51
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 12.13
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 12.54
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 12.04
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "average_distance_to_neighbors_um": 11.9
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "average_distance_to_neighbors_um": 12.25
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 11.09
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 11.9
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.85
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 11.27
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 18.8
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 11.69
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 12.72
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 12.88
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "average_distance_to_neighbors_um": 12.99
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 12.86
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "average_distance_to_neighbors_um": 13.11
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "average_distance_to_neighbors_um": 12.52
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "average_distance_to_neighbors_um": 12.17
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "average_distance_to_neighbors_um": 12.39
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "average_distance_to_neighbors_um": 11.54
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "average_distance_to_neighbors_um": 12.99
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "average_distance_to_neighbors_um": 13.27
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "average_distance_to_neighbors_um": 15.45
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "average_distance_to_neighbors_um": 20.62
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.77
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 10.08
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 10.1
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 9.05
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "average_distance_to_neighbors_um": 11.27
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "average_distance_to_neighbors_um": 9.33
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "average_distance_to_neighbors_um": 9.82
+  },
+  {
+    "slide_id": "TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "average_distance_to_neighbors_um": 9.54
+  },
+  {
+    "slide_id": "TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "average_distance_to_neighbors_um": 11.54
+  }
+]

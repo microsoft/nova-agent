@@ -1,0 +1,2358 @@
+[
+  {
+    "slide_id": "TCGA-A1-A0SK-DX1_xmin45749_ymin25055_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 316
+  },
+  {
+    "slide_id": "TCGA-A1-A0SK-DX1_xmin45749_ymin25055_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 161
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 12574
+  },
+  {
+    "slide_id": "TCGA-A1-A0SP-DX1_xmin6798_ymin53719_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 2519
+  },
+  {
+    "slide_id": "TCGA-A2-A04P-DX1_xmin104246_ymin48517_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 13499
+  },
+  {
+    "slide_id": "TCGA-A2-A04P-DX1_xmin104246_ymin48517_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 7266
+  },
+  {
+    "slide_id": "TCGA-A2-A04Q-DX1_xmin20868_ymin17804_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 14174
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 975
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1131
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 59
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 840
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 1555
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 240
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 291
+  },
+  {
+    "slide_id": "TCGA-A2-A0CM-DX1_xmin18562_ymin56852_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 94
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 1329
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "immune_nuclei_count": 3334
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 2630
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 2336
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "immune_nuclei_count": 88
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-3072_ymin-5120_xmax-4096_ymax-6144",
+    "immune_nuclei_count": 5485
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 964
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 1072
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "immune_nuclei_count": 10294
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "immune_nuclei_count": 8770
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 398
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-3072_xmax-6144_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "immune_nuclei_count": 3948
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "immune_nuclei_count": 2987
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-3072_xmax-7168_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-4096_xmax-7168_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D0-DX1_xmin68482_ymin39071_MPP-0.2500_xmin-6144_ymin-5120_xmax-7168_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0D2-DX1_xmin96887_ymin22299_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 13228
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 9637
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 11113
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 10679
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 1219
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 15957
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 8792
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 13693
+  },
+  {
+    "slide_id": "TCGA-A2-A0ST-DX1_xmin109446_ymin18274_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 7403
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 2823
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 5266
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 10934
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 10148
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 19539
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 22806
+  },
+  {
+    "slide_id": "TCGA-A2-A0SX-DX1_xmin53791_ymin56683_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 9702
+  },
+  {
+    "slide_id": "TCGA-A2-A0T0-DX1_xmin72865_ymin59458_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 1493
+  },
+  {
+    "slide_id": "TCGA-A2-A0YE-DX1_xmin59206_ymin33505_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 3076
+  },
+  {
+    "slide_id": "TCGA-A2-A0YE-DX1_xmin59206_ymin33505_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 16132
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 3184
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 831
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 4222
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 117
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A0YM-DX1_xmin44520_ymin66915_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "immune_nuclei_count": 130
+  },
+  {
+    "slide_id": "TCGA-A2-A1G6-DX1_xmin57706_ymin69514_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 13785
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 23034
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XS-DX1_xmin21421_ymin37486_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 8919
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 5384
+  },
+  {
+    "slide_id": "TCGA-A2-A3XT-DX1_xmin83566_ymin29931_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 18639
+  },
+  {
+    "slide_id": "TCGA-A2-A3XU-DX1_xmin33329_ymin26157_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XU-DX1_xmin33329_ymin26157_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XX-DX1_xmin69942_ymin41560_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 1927
+  },
+  {
+    "slide_id": "TCGA-A2-A3XX-DX1_xmin69942_ymin41560_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A2-A3XY-DX1_xmin76297_ymin35510_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 193
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 713
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 568
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 3202
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 136
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 2125
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 2084
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 1315
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 606
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 178
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0CE-DX1_xmin58461_ymin18750_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 419
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "immune_nuclei_count": 5662
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-0_ymin-5120_xmax-1024_ymax-6144",
+    "immune_nuclei_count": 2926
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 7866
+  },
+  {
+    "slide_id": "TCGA-A7-A0DA-DX1_xmin43731_ymin18175_MPP-0.2500_xmin-3072_ymin-5120_xmax-4096_ymax-6144",
+    "immune_nuclei_count": 3152
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 3262
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 711
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 1355
+  },
+  {
+    "slide_id": "TCGA-A7-A26F-DX1_xmin72969_ymin11489_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 3160
+  },
+  {
+    "slide_id": "TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 29423
+  },
+  {
+    "slide_id": "TCGA-A7-A26G-DX1_xmin77919_ymin10728_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 24197
+  },
+  {
+    "slide_id": "TCGA-A7-A26I-DX1_xmin9689_ymin25668_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 4582
+  },
+  {
+    "slide_id": "TCGA-A7-A26I-DX1_xmin9689_ymin25668_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 234
+  },
+  {
+    "slide_id": "TCGA-A7-A4SD-DX1_xmin53807_ymin11871_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 19606
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 128
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 1053
+  },
+  {
+    "slide_id": "TCGA-A7-A5ZV-DX1_xmin103009_ymin26581_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 3759
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 911
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1530
+  },
+  {
+    "slide_id": "TCGA-A7-A6VV-DX1_xmin48674_ymin37475_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 1151
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 3022
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 2416
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1266
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 1218
+  },
+  {
+    "slide_id": "TCGA-A7-A6VW-DX1_xmin69350_ymin15716_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 380
+  },
+  {
+    "slide_id": "TCGA-A7-A6VY-DX1_xmin7308_ymin29955_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 468
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 18448
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 19123
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1294
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 18987
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 232
+  },
+  {
+    "slide_id": "TCGA-AC-A2BK-DX1_xmin15426_ymin8344_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 500
+  },
+  {
+    "slide_id": "TCGA-AC-A2QJ-DX1_xmin36620_ymin8672_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 3310
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 17640
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 11858
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 8840
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 9572
+  },
+  {
+    "slide_id": "TCGA-AC-A6IW-DX1_xmin15387_ymin6222_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 930
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 736
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 1163
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 2622
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "immune_nuclei_count": 334
+  },
+  {
+    "slide_id": "TCGA-AN-A0AL-DX1_xmin15698_ymin29806_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 18485
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 6895
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 9726
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AN-A0AR-DX1_xmin8468_ymin21166_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 10252
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 1849
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 10084
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1088
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 833
+  },
+  {
+    "slide_id": "TCGA-AN-A0AT-DX1_xmin31171_ymin35756_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1190
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 612
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 163
+  },
+  {
+    "slide_id": "TCGA-AN-A0G0-DX1_xmin32741_ymin14546_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 108
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 2052
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 1231
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 3770
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 77
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 478
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 2564
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 878
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 202
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 6264
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 3591
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 2007
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 12531
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 528
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 9339
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 25425
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 2102
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "immune_nuclei_count": 1516
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "immune_nuclei_count": 4260
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "immune_nuclei_count": 4404
+  },
+  {
+    "slide_id": "TCGA-AN-A0XU-DX1_xmin26118_ymin18441_MPP-0.2500_xmin-6144_ymin-2048_xmax-7168_ymax-3072",
+    "immune_nuclei_count": 5822
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 942
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 308
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 2029
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AO-A03U-DX1_xmin17362_ymin25363_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AO-A0J4-DX1_xmin17194_ymin10629_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 158
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 689
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 401
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 482
+  },
+  {
+    "slide_id": "TCGA-AO-A0J6-DX1_xmin40548_ymin11135_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 338
+  },
+  {
+    "slide_id": "TCGA-AO-A1KR-DX1_xmin19591_ymin37667_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 7061
+  },
+  {
+    "slide_id": "TCGA-AO-A1KR-DX1_xmin19591_ymin37667_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 6054
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 953
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 9240
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 6342
+  },
+  {
+    "slide_id": "TCGA-AQ-A04J-DX1_xmin64631_ymin12074_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 22108
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 554
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AQ-A54N-DX1_xmin32440_ymin26558_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1228
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 918
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 1180
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 809
+  },
+  {
+    "slide_id": "TCGA-AR-A0TS-DX1_xmin118843_ymin22812_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 1449
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 2668
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 7577
+  },
+  {
+    "slide_id": "TCGA-AR-A0U1-DX1_xmin63681_ymin24922_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 53
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 2427
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A0U4-DX1_xmin41141_ymin69786_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 8
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AI-DX1_xmin38671_ymin10616_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 7799
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 1458
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AQ-DX1_xmin18171_ymin38296_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 18490
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 5652
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 2971
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 886
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 113
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 1447
+  },
+  {
+    "slide_id": "TCGA-AR-A1AR-DX1_xmin12708_ymin29100_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 1505
+  },
+  {
+    "slide_id": "TCGA-AR-A1AY-DX1_xmin62652_ymin27061_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A1AY-DX1_xmin62652_ymin27061_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 273
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 543
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 9281
+  },
+  {
+    "slide_id": "TCGA-AR-A2LH-DX1_xmin78480_ymin42305_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 5290
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 17002
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 712
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 26261
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-AR-A5QQ-DX1_xmin107130_ymin49863_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0AV-DX1_xmin77937_ymin57165_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 5387
+  },
+  {
+    "slide_id": "TCGA-BH-A0B3-DX1_xmin82526_ymin42184_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1291
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 780
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 2677
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 654
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0B9-DX1_xmin62727_ymin56697_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 353
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 8547
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 7856
+  },
+  {
+    "slide_id": "TCGA-BH-A0BG-DX1_xmin64019_ymin24975_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 11534
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 8606
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 9167
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 5219
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 4732
+  },
+  {
+    "slide_id": "TCGA-BH-A0BW-DX1_xmin42346_ymin30843_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 835
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 3078
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 155
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 20353
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 3377
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 437
+  },
+  {
+    "slide_id": "TCGA-BH-A0E0-DX1_xmin16640_ymin43761_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 13994
+  },
+  {
+    "slide_id": "TCGA-BH-A0E6-DX1_xmin54786_ymin20002_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 8037
+  },
+  {
+    "slide_id": "TCGA-BH-A0E6-DX1_xmin54786_ymin20002_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "immune_nuclei_count": 5240
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 2868
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 1762
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 1605
+  },
+  {
+    "slide_id": "TCGA-BH-A0RX-DX1_xmin69099_ymin22327_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 1538
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 2349
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 623
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "immune_nuclei_count": 5990
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 51
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-3072_ymin-6144_xmax-4096_ymax-7168",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-4096_ymin-6144_xmax-5120_ymax-7168",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A0WA-DX1_xmin56581_ymin24774_MPP-0.2500_xmin-5120_ymin-6144_xmax-6144_ymax-7168",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 21125
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 13921
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 5312
+  },
+  {
+    "slide_id": "TCGA-BH-A18G-DX1_xmin16831_ymin497_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 1409
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 74
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 100
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 378
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 82
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 170
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 1390
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 1975
+  },
+  {
+    "slide_id": "TCGA-BH-A18V-DX1_xmin50030_ymin48454_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 574
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-BH-A1EW-DX1_xmin66752_ymin42706_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 211
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 85
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 9352
+  },
+  {
+    "slide_id": "TCGA-C8-A12V-DX1_xmin11056_ymin54401_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 4014
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 6923
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 9586
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 4938
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 9276
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 11422
+  },
+  {
+    "slide_id": "TCGA-C8-A1HJ-DX1_xmin46412_ymin17174_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 6142
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-0_ymin-5120_xmax-1024_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A26X-DX1_xmin8990_ymin27544_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 4578
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 7331
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 5069
+  },
+  {
+    "slide_id": "TCGA-C8-A26Y-DX1_xmin29748_ymin36769_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 1751
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 1463
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 3144
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-6144_ymin-0_xmax-7168_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-C8-A27B-DX1_xmin52632_ymin11349_MPP-0.2500_xmin-7168_ymin-0_xmax-8192_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 12050
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 3578
+  },
+  {
+    "slide_id": "TCGA-D8-A13Z-DX1_xmin30985_ymin49337_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 2481
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 4740
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 5871
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 2237
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 3085
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 10320
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 2083
+  },
+  {
+    "slide_id": "TCGA-D8-A143-DX1_xmin52429_ymin19478_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A147-DX1_xmin66394_ymin19298_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 6052
+  },
+  {
+    "slide_id": "TCGA-D8-A147-DX1_xmin66394_ymin19298_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 6691
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JG-DX1_xmin15677_ymin69205_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 4427
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1852
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 446
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 2674
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "immune_nuclei_count": 3916
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-5120_ymin-5120_xmax-6144_ymax-6144",
+    "immune_nuclei_count": 405
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-7168_ymin-5120_xmax-8192_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1JL-DX1_xmin39765_ymin24835_MPP-0.2500_xmin-8192_ymin-5120_xmax-9216_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1XK-DX1_xmin26340_ymin50273_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 10282
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 2983
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 5453
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 151
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 1276
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 3616
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 1429
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 1748
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 1219
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 1579
+  },
+  {
+    "slide_id": "TCGA-D8-A1XQ-DX1_xmin61261_ymin33317_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 406
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1235
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 484
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A27F-DX1_xmin98787_ymin6725_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 875
+  },
+  {
+    "slide_id": "TCGA-D8-A27H-DX1_xmin8738_ymin8063_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 4337
+  },
+  {
+    "slide_id": "TCGA-D8-A27H-DX1_xmin8738_ymin8063_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 5459
+  },
+  {
+    "slide_id": "TCGA-D8-A27M-DX1_xmin54473_ymin16109_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-D8-A27M-DX1_xmin54473_ymin16109_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 434
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 102
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 6665
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 3084
+  },
+  {
+    "slide_id": "TCGA-E2-A14N-DX1_xmin21383_ymin66838_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 11395
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 7784
+  },
+  {
+    "slide_id": "TCGA-E2-A14R-DX1_xmin7751_ymin59308_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 23182
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 2949
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 3392
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 12087
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 975
+  },
+  {
+    "slide_id": "TCGA-E2-A14X-DX1_xmin88836_ymin66393_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 11727
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 4726
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 15493
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 6467
+  },
+  {
+    "slide_id": "TCGA-E2-A150-DX1_xmin42083_ymin62113_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 2982
+  },
+  {
+    "slide_id": "TCGA-E2-A158-DX1_xmin56083_ymin25872_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 5069
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1614
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 534
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 4001
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 4515
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 2306
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 20186
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 2675
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 1082
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "immune_nuclei_count": 3219
+  },
+  {
+    "slide_id": "TCGA-E2-A159-DX1_xmin38620_ymin28700_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 10936
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 387
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 1842
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 5504
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 2188
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 387
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 3436
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 7307
+  },
+  {
+    "slide_id": "TCGA-E2-A1B6-DX1_xmin16266_ymin50634_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 957
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 560
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 4999
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 1589
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 42952
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 19275
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-5120_ymin-0_xmax-6144_ymax-1024",
+    "immune_nuclei_count": 5055
+  },
+  {
+    "slide_id": "TCGA-E2-A1L7-DX1_xmin51554_ymin15424_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 24707
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 1615
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1115
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 7957
+  },
+  {
+    "slide_id": "TCGA-E2-A1LH-DX1_xmin22770_ymin24149_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 5247
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 4050
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 17800
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 8623
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 12371
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 1745
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 390
+  },
+  {
+    "slide_id": "TCGA-E2-A1LI-DX1_xmin44715_ymin18434_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "immune_nuclei_count": 3332
+  },
+  {
+    "slide_id": "TCGA-E2-A1LS-DX1_xmin39247_ymin47756_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 9363
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1167
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 2880
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 1145
+  },
+  {
+    "slide_id": "TCGA-E2-A573-DX1_xmin59666_ymin56141_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 5655
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-E2-A574-DX1_xmin54962_ymin47475_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 1884
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 652
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-1024_ymin-5120_xmax-2048_ymax-6144",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 5997
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-2048_ymin-5120_xmax-3072_ymax-6144",
+    "immune_nuclei_count": 1078
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 751
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 7500
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-3072_ymin-7168_xmax-4096_ymax-8192",
+    "immune_nuclei_count": 809
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 4920
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 8608
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-4096_ymin-5120_xmax-5120_ymax-6144",
+    "immune_nuclei_count": 970
+  },
+  {
+    "slide_id": "TCGA-EW-A1OV-DX1_xmin126026_ymin65132_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 1736
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 5870
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 7225
+  },
+  {
+    "slide_id": "TCGA-EW-A1P7-DX1_xmin9808_ymin46395_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 2062
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 3224
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 2072
+  },
+  {
+    "slide_id": "TCGA-EW-A1P8-DX1_xmin15520_ymin26381_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 182
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 685
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 3846
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 21087
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 15456
+  },
+  {
+    "slide_id": "TCGA-EW-A1PB-DX1_xmin57214_ymin25940_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 2561
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-1024_ymin-4096_xmax-2048_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 884
+  },
+  {
+    "slide_id": "TCGA-EW-A1PH-DX1_xmin3455_ymin52049_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "immune_nuclei_count": 307
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 3010
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 6322
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 10283
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 1570
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 1581
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 2274
+  },
+  {
+    "slide_id": "TCGA-EW-A6SB-DX1_xmin34625_ymin56578_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 4170
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-3072_ymin-4096_xmax-4096_ymax-5120",
+    "immune_nuclei_count": 4408
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-4096_ymin-3072_xmax-5120_ymax-4096",
+    "immune_nuclei_count": 1317
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-4096_ymin-4096_xmax-5120_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-1024_xmax-6144_ymax-2048",
+    "immune_nuclei_count": 1098
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-2048_xmax-6144_ymax-3072",
+    "immune_nuclei_count": 77
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-3072_xmax-6144_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-5120_ymin-4096_xmax-6144_ymax-5120",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-1024_xmax-7168_ymax-2048",
+    "immune_nuclei_count": 1443
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-2048_xmax-7168_ymax-3072",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DB-DX1_xmin50586_ymin43110_MPP-0.2500_xmin-6144_ymin-3072_xmax-7168_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DD-DX1_xmin47260_ymin22408_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 2055
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 4189
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 3548
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 1480
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 3894
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 2938
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 6436
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DF-DX1_xmin50637_ymin43774_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 3007
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 204
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 3949
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 598
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 7287
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 866
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 11150
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 2937
+  },
+  {
+    "slide_id": "TCGA-GM-A2DH-DX1_xmin50963_ymin56303_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 1190
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 296
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-0_xmax-5120_ymax-1024",
+    "immune_nuclei_count": 2753
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-1024_xmax-5120_ymax-2048",
+    "immune_nuclei_count": 1606
+  },
+  {
+    "slide_id": "TCGA-GM-A3XL-DX1_xmin29910_ymin15820_MPP-0.2500_xmin-4096_ymin-2048_xmax-5120_ymax-3072",
+    "immune_nuclei_count": 3585
+  },
+  {
+    "slide_id": "TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 1091
+  },
+  {
+    "slide_id": "TCGA-HN-A2NL-DX1_xmin11931_ymin5764_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 65
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 8977
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 1934
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1945
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-LL-A441-DX1_xmin82006_ymin43121_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 21774
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 5260
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 15779
+  },
+  {
+    "slide_id": "TCGA-LL-A5YO-DX1_xmin36631_ymin44396_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 7499
+  },
+  {
+    "slide_id": "TCGA-LL-A73Y-DX1_xmin68117_ymin49445_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 6182
+  },
+  {
+    "slide_id": "TCGA-LL-A73Y-DX1_xmin68117_ymin49445_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 12419
+  },
+  {
+    "slide_id": "TCGA-LL-A740-DX1_xmin39436_ymin24080_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 0
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-0_ymin-4096_xmax-1024_ymax-5120",
+    "immune_nuclei_count": 2621
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 1141
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 513
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 4602
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 8218
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-2048_ymin-4096_xmax-3072_ymax-5120",
+    "immune_nuclei_count": 406
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-0_xmax-4096_ymax-1024",
+    "immune_nuclei_count": 2071
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 5120
+  },
+  {
+    "slide_id": "TCGA-OL-A5D7-DX1_xmin114443_ymin22490_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 3756
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 8619
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 16237
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 3872
+  },
+  {
+    "slide_id": "TCGA-OL-A66I-DX1_xmin38433_ymin22957_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 10123
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 3580
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 3303
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-0_ymin-3072_xmax-1024_ymax-4096",
+    "immune_nuclei_count": 838
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 7868
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-2048_xmax-2048_ymax-3072",
+    "immune_nuclei_count": 4738
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-1024_ymin-3072_xmax-2048_ymax-4096",
+    "immune_nuclei_count": 8473
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-0_xmax-3072_ymax-1024",
+    "immune_nuclei_count": 2420
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-1024_xmax-3072_ymax-2048",
+    "immune_nuclei_count": 6874
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-2048_xmax-3072_ymax-3072",
+    "immune_nuclei_count": 7482
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-2048_ymin-3072_xmax-3072_ymax-4096",
+    "immune_nuclei_count": 7579
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-1024_xmax-4096_ymax-2048",
+    "immune_nuclei_count": 8199
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-2048_xmax-4096_ymax-3072",
+    "immune_nuclei_count": 2267
+  },
+  {
+    "slide_id": "TCGA-OL-A66P-DX1_xmin30143_ymin20310_MPP-0.2500_xmin-3072_ymin-3072_xmax-4096_ymax-4096",
+    "immune_nuclei_count": 1994
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 2729
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 1366
+  },
+  {
+    "slide_id": "TCGA-OL-A6VO-DX1_xmin88416_ymin188485_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 18473
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 3251
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-0_ymin-2048_xmax-1024_ymax-3072",
+    "immune_nuclei_count": 1058
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-1024_ymin-0_xmax-2048_ymax-1024",
+    "immune_nuclei_count": 3270
+  },
+  {
+    "slide_id": "TCGA-S3-AA10-DX1_xmin43039_ymin23986_MPP-0.2500_xmin-1024_ymin-1024_xmax-2048_ymax-2048",
+    "immune_nuclei_count": 4950
+  },
+  {
+    "slide_id": "TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-0_xmax-1024_ymax-1024",
+    "immune_nuclei_count": 7390
+  },
+  {
+    "slide_id": "TCGA-S3-AA15-DX1_xmin55486_ymin28926_MPP-0.2500_xmin-0_ymin-1024_xmax-1024_ymax-2048",
+    "immune_nuclei_count": 2857
+  }
+]

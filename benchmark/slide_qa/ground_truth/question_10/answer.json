@@ -1,0 +1,9 @@
+[
+  {
+    "number_high_recurrence_likelihood": 21,
+    "number_low_recurrence_likelihood": 113,
+    "avg_fga_in_high_recurrence_likelihood": 0.3465,
+    "avg_fga_in_low_recurrence_likelihood": 0.4003,
+    "p-value": 0.291
+  }
+]
