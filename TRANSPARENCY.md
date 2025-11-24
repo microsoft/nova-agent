@@ -6,7 +6,7 @@ To evaluate such systems, we present SlideQuest, a 90-question benchmark—verif
 NOVA was developed to unify existing histopathology tools within a single framework that supports natural language interaction, making it accessible to clinicians with limited time or technical expertise. This integration not only facilitates large-scale analysis of complex data but also empowers users to drive discovery and generate new hypotheses.
 
 SlideQuest was developed to enable the evaluation of dynamic agentic systems that require benchmarks that move beyond static question answering to capture the complexity of multi-step reasoning and data-scale analysis.
-A detailed discussion of NOVA & SlideQuest, including how it was developed and tested, can be found in our paper at: [link, TBD paper not archived yet]
+A detailed discussion of NOVA & SlideQuest, including how it was developed and tested, can be found in [our paper](https://arxiv.org/abs/2511.11324).
 
 ## Intended uses
 NOVA is best suited for histopathology data analysis.
@@ -25,7 +25,7 @@ To begin using NOVA, checkout the [README](README.md) for necessary code, links,
 
 ## Evaluation
 NOVA was evaluated on its ability to complete histopathology data analysis via the SlideQuest benckmark that captures 4 categories of tasks, including pyramidal data interrogation (DataQA), cellular analysis (CellularQA), histology region of interest understanding (PatchQA) and gigapixel slide level experimentation (SlideQA).
-A detailed discussion of our evaluation methods and results can be found in our paper at: [link, TBD paper not archived yet]
+A detailed discussion of our evaluation methods and results can be found in [our paper](https://arxiv.org/abs/2511.11324)
 
 ### Evaluation methods
 We used Accuracy to measure NOVA’s performance. We enforced structured json outputs in SlideQuest enabling us to measure an accuracy score based on soft matching of the outputs against a predefined ground truth.
