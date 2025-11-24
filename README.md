@@ -1,6 +1,6 @@
 # NOVA
 
-[arXiv](https://arxiv.org/pdf/TBD) | [Getting Started](#installation) | [Cite](#reference) | [License](LICENSE)
+[arXiv](https://arxiv.org/abs/2511.11324) | [Getting Started](#installation) | [Cite](#reference) | [License](LICENSE)
 
 NOVA is a modular agentic framework, based on [CodeAct](https://arxiv.org/abs/2402.01030v4) and developed using [smolagents](https://huggingface.co/docs/smolagents/index), that dynamically generates and executes Python code to orchestrate tool usage and answer user queries for scalable computational analysis. NOVA integrates 49 domain-specific tools (e.g., nuclei segmentation, whole-slide encoding) built on open-source software, and can also create new tools ad hoc.
 
@@ -92,12 +92,14 @@ We provide a debugging config in [.vscode/launch.json](.vscode/launch.json) to f
 We kindly request that you cite our paper if any part of this code is used in your work.
 
 ```bibtex
-# TBD
-@article{nova2024,
-  title={NOVA: A Modular Agentic Framework for Scalable Computational Analysis},
-  author={Anurag J. Vaidya and Felix Meissen and Daniel C. Castro and Shruthi Bannur and Tristan Lazard and Drew F.K. Williamson and Faisal Mahmood and Javier Alvarez-Valle and Stephanie L.Hyland and Kenza Bouzid},
-  journal={arXiv preprint arXiv:TBD},
-  year={2024}
+@misc{vaidya2025novaagenticframeworkautomated,
+      title={NOVA: An Agentic Framework for Automated Histopathology Analysis and Discovery},
+      author={Anurag J. Vaidya and Felix Meissen and Daniel C. Castro and Shruthi Bannur and Tristan Lazard and Drew F. K. Williamson and Faisal Mahmood and Javier Alvarez-Valle and Stephanie L. Hyland and Kenza Bouzid},
+      year={2025},
+      eprint={2511.11324},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2511.11324},
 }
 ```
 
